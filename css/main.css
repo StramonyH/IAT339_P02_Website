@@ -659,10 +659,25 @@ input[type=text] {
 .pdctImg{
   width: 100%;
 }
+
 @media only screen and (max-width:920px){
   .pdctImg{
     max-width: 12rem;
     max-height: 12rem;
   }
 
+}
+
+ul li{
+  margin-top: 2rem;
+  color: #865B5B;
+}
+
+.font{
+  width: 60%;
+  margin-top: 3rem;
+}
+
+.font img{
+  width: 100%;
 }
