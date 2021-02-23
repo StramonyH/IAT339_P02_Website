@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*Change the default font*/
+  background-color: #FFEFEE;
+  font-family: 'Mulish', sans-serif;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* padding: 2rem; */
+}
+
+/*Add space between section elements*/
+/* section{
+  padding: 1rem;
+  margin-bottom: 7rem;
+} */
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h1{
+  text-align: center;
+  color: #B99592;
+}
+
+h2 {
+  color: #1D4839;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Sriracha', cursive;
+  font-weight: bolder;
+  text-shadow: #8CBDB9 1px 0 10px;
+}
+
+h3 {
+  color: #013328;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+h4 {
+  color: #00695C;
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  color: black;
+  display: block;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: rgb(255, 255, 255, 0.4);
+  line-height: 1rem;
+}
+
+/*study guide navigation*/
+
+.study_guide {
+  overflow: hidden;
+}
+
+.study_guide a {
+  float: left;
+  display: block;
+  color: #865B5B;
+  text-align: center;
+  padding: 0.8rem;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 3px solid transparent;
+}
+
+.study_guide a:hover {
+  color: #B99592;
+  border-bottom: #EDD5D2 solid 3px;
+  transition: .5s ease;
+}
+
+.study_guide a:focus {
+  color: #2D3E4E;
+}
