@@ -52,6 +52,7 @@ h4 {
 p {
   margin-top: 1rem;
   font-size: 14px;
+  color: #865B5B;
 }
 
 nav a:hover, nav a:focus {
@@ -338,4 +339,20 @@ label.room span.room:after {
 
 .button-nav:hover, .button-nav:focus {
   background-color: rgb(200,200,200);
+}
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+/* Paragraphs */
+.paragraphs p{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 1.5rem;
+}
+
+ol li{
+  margin-top: 2rem;
+
 }
