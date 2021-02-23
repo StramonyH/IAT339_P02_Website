@@ -33,5 +33,178 @@
 
     </header>
 
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>Interactive Elements</h2>
+
+      <section class="element">
+        <h3>In-text link</h3>
+
+          <h4>CSS selector:</h4>
+            <p>a</p>
+            <p>a.intext</p>
+
+          <h4> Sample code:</h4>
+            <code>&lt;a class="intext-link"&gt;One Cake Boutique-Visit Our Ins&lt;/a&gt;</code>
+
+          <h4>Rendered element:</h4>
+            <a class="intext" href="https://www.urbanladder.com/">One Cake Boutique-Visit Our Ins</a>
+      </section>
+
+
+
+    <!-- Navigation Link styling section -->
+    <section class="element">
+
+      <h3>Navigation Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.navigationBar a</p>
+      <p>.navigationBar a hover</p>
+
+      <h4>Sample code:</h4>
+      <!--<code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>-->
+        <code>&lt;nav&gt;
+          &lt;a href="#home"&gt;HOME&lt;/a&gt;
+          &lt;a href="#about"&gt;ABOUT&lt;/a&gt;
+          &lt;nav&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+      <!--<a class="button-nav" href="#">Default Button</a>-->
+      <div class="navigationBar">
+        <nav>
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT</a>
+        </nav>
+      </div>
+
+    </section>
+
+
+    <section class="element">
+      <h3>Submit/Reset Buttons</h3>
+
+      <h4>CSS selector:</h4>
+        <p>.submit-btn</p>
+        <p>.reset:hover, .submit:hover, .checkout:hover</p>
+        <p>.reset:focus, .submit:focus, .checkout:focus</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;form&gt;
+          &lt;button class="submit"&gt;&lt;SUBMIT&gt;&lt;/button&gt;
+          &lt;button class="reset"&gt;&lt;RESET&gt;&lt;/button&gt;
+          &lt;/form&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+          <div class="submit-btn">
+            <button class="submit" type="submit">SUBMIT</button>
+            <button class="reset" type="reset">RESET</button>
+          </div>
+    </section>
+
+
+    <section class="element">
+      <h3>Text Input Field with Label</h3>
+
+      <h4>CSS selector:</h4>
+        <p>fieldset</p>
+        <p>.search</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;fieldset class="search"&gt;
+          &lt;fieldset&gt;&lt;User Login:&gt;&lt;/fieldset&gt;
+          &lt;input type="text" value=""/ placeholder="name"&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+          <fieldset class="search">
+            <label> User Login: </label> <input type="text" placeholder="name" value=""/>
+          </fieldset>
+    </section>
+
+
+    <section class="element">
+      <h3>Radio Button with Label</h3>
+
+      <h4>CSS selector:</h4>
+        <p>label.room</p>
+        <p>label.room input</p>
+        <p>span.room</p>
+        <p>label.room:hover input ~ span.room</p>
+        <p>span.room:after</p>
+        <p>label.room input:checked ~ span.room:after</p>
+        <p>label.room span.room:after</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;label class="furniture"&gt;Chocolate&lt;input type="checkbox"&gt;
+          &lt;span class="furniture"&gt;&lt;/span&gt;&lt;/label&gt;
+          &lt;label class="furniture"&gt;Strawberry&lt;input type="checkbox"&gt;
+          &lt;span class="furniture"&gt;&lt;/span&gt;&lt;/label&gt;
+          &lt;label class="furniture"&gt;Cheese&lt;input type="checkbox"&gt;
+          &lt;span class="furniture"&gt;&lt;/span&gt;&lt;/label&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+        <div class="radion-button">
+          <h4>Choose a room</h4>
+          <label class="room">Chocolate
+            <input type="checkbox">
+            <span class="room"></span>
+            </label>
+
+            <label class="room">Strawberry
+            <input type="checkbox">
+            <span class="room"></span>
+            </label>
+
+            <label class="room">Cheese
+            <input type="checkbox">
+            <span class="room"></span>
+          </label>
+        </div>
+    </section>
+
+
+    <section class="element">
+      <h3>Image as a Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.furniture_design</p>
+      <p>.image</p>
+      <p>.img_effect</p>
+      <p>.text</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;div class="furniture_design"&gt;
+          &lt;div class="img"&gt;
+          &lt;a href&gt;&lt;img src="img/cake.jpg" &gt;&lt;/a&gt;
+          &lt;div class="img_effect&gt;
+          &lt;div class="text"&gt;&lt;a  href&gt;Learn More&lt;/a&gt;&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+        <div class="furniture_design">
+          <div class="img">
+             <a  href="https://www.instagram.com/onecakeboutique/"> <img class="image" src="img/cake.jpg" alt="this is a cake picture."></a>
+             <div class="img_effect">
+               <div class="text"><a  href="https://www.instagram.com/onecakeboutique/">Learn More</a></div>
+             </div>
+           </div>
+       </div>
+    </section>
+
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
   </body>
 </html>
