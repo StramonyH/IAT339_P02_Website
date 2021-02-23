@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>One Cake Boutique</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <!-- <link href="css/normalize.css" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header>
+      <h1>One Cake Boutique</h1>
+
+      <nav class="study_guide">
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="product_list.html">Product Listing Template</a>
+        <a href="checkout.html">Checkout Template</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+    </header>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+  <section id="interactive_elements">
+    <h2>Interactive Elements</h2>
+
+      <section class="element">
+        <h3>In-text link</h3>
+
+          <h4>CSS selector:</h4>
+            <p>a</p>
+            <p>a.intext</p>
+
+          <h4> Sample code:</h4>
+            <code>&lt;a class="intext-link"&gt;One Cake Boutique-Visit Our Ins&lt;/a&gt;</code>
+
+          <h4>Rendered element:</h4>
+            <a class="intext" href="https://www.urbanladder.com/">One Cake Boutique-Visit Our Ins</a>
+      </section>
+
+
+
+    <!-- Navigation Link styling section -->
+    <section class="element">
+
+      <h3>Navigation Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.navigationBar a</p>
+      <p>.navigationBar a hover</p>
+
+      <h4>Sample code:</h4>
+      <!--<code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>-->
+        <code>&lt;nav&gt;
+          &lt;a href="#home"&gt;HOME&lt;/a&gt;
+          &lt;a href="#about"&gt;ABOUT&lt;/a&gt;
+          &lt;nav&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+      <!--<a class="button-nav" href="#">Default Button</a>-->
+      <div class="navigationBar">
+        <nav>
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT</a>
+        </nav>
+      </div>
+
+    </section>
+
+
+    <section class="element">
+      <h3>Submit/Reset Buttons</h3>
+
+      <h4>CSS selector:</h4>
+        <p>.submit-btn</p>
+        <p>.reset:hover, .submit:hover, .checkout:hover</p>
+        <p>.reset:focus, .submit:focus, .checkout:focus</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;form&gt;
+          &lt;button class="submit"&gt;&lt;SUBMIT&gt;&lt;/button&gt;
+          &lt;button class="reset"&gt;&lt;RESET&gt;&lt;/button&gt;
+          &lt;/form&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+          <div class="submit-btn">
+            <button class="submit" type="submit">SUBMIT</button>
+            <button class="reset" type="reset">RESET</button>
+          </div>
+    </section>
+
+
+    <section class="element">
+      <h3>Text Input Field with Label</h3>
+
+      <h4>CSS selector:</h4>
+        <p>fieldset</p>
+        <p>.search</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;fieldset class="search"&gt;
+          &lt;fieldset&gt;&lt;User Login:&gt;&lt;/fieldset&gt;
+          &lt;input type="text" value=""/ placeholder="name"&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+          <fieldset class="search">
+            <label> User Login: </label> <input type="text" placeholder="name" value=""/>
+          </fieldset>
+    </section>
+
+
+    <section class="element">
+      <h3>Radio Button with Label</h3>
+
+      <h4>CSS selector:</h4>
+        <p>label.room</p>
+        <p>label.room input</p>
+        <p>span.room</p>
+        <p>label.room:hover input ~ span.room</p>
+        <p>span.room:after</p>
+        <p>label.room input:checked ~ span.room:after</p>
+        <p>label.room span.room:after</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;label class="furniture"&gt;Chocolate&lt;input type="checkbox"&gt;
+          &lt;span class="furniture"&gt;&lt;/span&gt;&lt;/label&gt;
+          &lt;label class="furniture"&gt;Strawberry&lt;input type="checkbox"&gt;
+          &lt;span class="furniture"&gt;&lt;/span&gt;&lt;/label&gt;
+          &lt;label class="furniture"&gt;Cheese&lt;input type="checkbox"&gt;
+          &lt;span class="furniture"&gt;&lt;/span&gt;&lt;/label&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+        <div class="radion-button">
+          <h4>Choose a room</h4>
+          <label class="room">Chocolate
+            <input type="checkbox">
+            <span class="room"></span>
+            </label>
+
+            <label class="room">Strawberry
+            <input type="checkbox">
+            <span class="room"></span>
+            </label>
+
+            <label class="room">Cheese
+            <input type="checkbox">
+            <span class="room"></span>
+          </label>
+        </div>
+    </section>
+
+
+    <section class="element">
+      <h3>Image as a Link</h3>
+
+      <h4>CSS selector:</h4>
+      <p>.furniture_design</p>
+      <p>.image</p>
+      <p>.img_effect</p>
+      <p>.text</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;div class="furniture_design"&gt;
+          &lt;div class="img"&gt;
+          &lt;a href&gt;&lt;img src="img/cake.jpg" &gt;&lt;/a&gt;
+          &lt;div class="img_effect&gt;
+          &lt;div class="text"&gt;&lt;a  href&gt;Learn More&lt;/a&gt;&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+        <div class="furniture_design">
+          <div class="img">
+             <a  href="https://www.instagram.com/onecakeboutique/"> <img class="image" src="img/cake.jpg" alt="this is a cake picture."></a>
+             <div class="img_effect">
+               <div class="text"><a  href="https://www.instagram.com/onecakeboutique/">Learn More</a></div>
+             </div>
+           </div>
+       </div>
+    </section>
+
+
+  </section>
+  <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+  <!-- TEXT ELEMENTS SECTION // -->
+  <section id="text-elements">
+    <h2>Text Elements</h2>
+
+    <section class="element">
+      <h3>Headings</h3>
+
+      <h4>CSS selector:</h4>
+        <p>h3</p>
+        <p>h4</p>
+        <p>h5</p>
+        <p>h6</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;h3&gt;Heading 3&lt;/h3&gt;
+          &lt;h4&gt;Heading 4&lt;/h4&gt;
+          &lt;h5&gt;Heading 5&lt;/h5&gt;
+          &lt;h6&gt;Heading 6&lt;/h6&gt;
+        </code>
+
+      <h4>Rendered element:</h4>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </section>
+
+    <section class="element">
+      <h3>Paragraphs</h3>
+
+      <h4>CSS selector:</h4>
+        <p>.paragraphs p</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;p&gt;One Cake Boutique is a cake/dessert brand located in Richmond, BC. This brand was established by a group of young cake lovers,
+            aiming to provide both great taste and amazing visual experiences. With the enthusiasm of beautiful cake, One Cake Boutique is
+            always challenging the status-quo of cake making and cake design, preferring to integrate classic styles and the latest popular
+            elements.&lt;/p&gt;
+         </code>
+
+      <h4>Rendered elements:</h4>
+        <div class="paragraphs">
+          <p>One Cake Boutique is a cake/dessert brand located in Richmond, BC. This brand was established by a group of young cake lovers,
+            aiming to provide both great taste and amazing visual experiences. With the enthusiasm of beautiful cake, One Cake Boutique is
+            always challenging the status-quo of cake making and cake design, preferring to integrate classic styles and the latest popular
+            elements.</p>
+        </div>
+    </section>
+
+    <section class="element">
+      <h3>Numbered Lists</h3>
+
+      <h4>CSS selector:</h4>
+        <p>ol</p>
+        <p>li</p>
+
+      <h4>Sample code:</h4>
+        <code>
+          &lt;ol&gt;
+          &lt;li&gt;Cream meets Fruits&lt;/li&gt;
+          &lt;/ol&gt;
+        </code>
+
+      <h4>Rendered elements:</h4>
+        <ol>
+          <li>Cream meets Fruits</li>
+          <li>Season Specials</li>
+          <li>Flowery White</li>
+          <li>Birthday Superstar</li>
+        </ol>
+    </section>
+
+  </section>
+  <!-- // TEXT ELEMENTS SECTION -->
+
+  </body>
+</html>

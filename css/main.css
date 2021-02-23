@@ -1,0 +1,358 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*Change the default font*/
+  background-color: #FFEFEE;
+  font-family: 'Mulish', sans-serif;
+  padding: 2rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* padding: 2rem; */
+}
+
+/*Add space between section elements*/
+section{
+  margin-bottom: 5rem;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h1{
+  text-align: center;
+  color: #B99592;
+}
+
+h2 {
+  color: #865B5B;
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Sriracha', cursive;
+  font-weight: bolder;
+  text-shadow: #EDD5D2 5px 0 10px;
+}
+
+h3 {
+  color: #013328;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+h4 {
+  color: #B99592;
+  margin-bottom: 1rem;
+  margin-top: 2.5rem;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #865B5B;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  color: black;
+  display: block;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: rgb(255, 255, 255, 0.4);
+  line-height: 1rem;
+}
+
+/*study guide navigation*/
+
+.study_guide {
+  overflow: hidden;
+}
+
+.study_guide a {
+  float: left;
+  display: block;
+  color: #865B5B;
+  text-align: center;
+  padding: 0.8rem;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 3px solid transparent;
+}
+
+.study_guide a:hover {
+  color: #B99592;
+  border-bottom: #EDD5D2 solid 3px;
+  transition: .5s ease;
+}
+
+.study_guide a:focus {
+  color: #2D3E4E;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/*In-text section elements*/
+a{
+  color: #865B5B;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+a.intext:hover{
+  color: #B99592;
+  text-shadow: #F0D5D2 1px 0 10px;
+  transition: .5s ease;
+  font-weight:bolder;
+}
+
+a.intext:focus{
+  color: #2D3E4E;
+}
+
+/*Navigation link elements*/
+.navigationBar a {
+  margin: 2rem;
+  color:#865B5B;
+  font-size: 18px;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+.navigationBar a:hover {
+  color: #B99592;
+  border-bottom: #EDD5D2 solid 3px;
+  transition: .5s ease;
+}
+
+/*subimit/reset button*/
+.submit-btn button{
+  background-color: #EDD5D2;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.reset:hover, .submit:hover, .checkout:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.reset:focus, .submit:focus, .checkout:focus {
+  color: grey;
+}
+
+/*Text input field with label*/
+fieldset{
+  padding: 0;
+  margin:0;
+}
+
+.search{
+  padding: 1rem;
+}
+
+.search label{
+  font-weight: bolder;
+  color: #865B5B;
+}
+
+.search input{
+  border: 1.5px solid #D7D7D7;
+  padding: 0.4rem;
+  width: 12rem;
+  margin-left: 1rem;
+}
+
+.search input::placeholder{
+  color: white;
+}
+
+.search input:hover::placeholder{
+  color: rgb(215, 215, 215);
+}
+
+@media screen and (max-width: 560px){
+  .search input{
+    width: 12rem;
+    margin-top: 1rem;
+  }
+}
+
+/* Radio button with label */
+label.room {
+  display: block;
+  position: relative;
+  font-weight: bolder;
+  color: #865B5B;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+label.room input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+span.room {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: rgb(185, 149, 146, 0.3);
+  border-radius: 50%;
+}
+
+label.room:hover input ~ span.room {
+  background-color: rgb(185, 149, 146, 0.7);
+}
+
+label.room input:checked ~ span.room {
+  background-color: #757575;
+}
+
+span.room:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+label.room input:checked ~ span.room:after {
+  display: block;
+}
+
+label.room span.room:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  /* border-width: 20%; */
+}
+
+/*Image as a link section elements*/
+.furniture_design{
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+.img {
+  position: relative;
+  width: 30%;
+  justify-content :flex-start;
+
+
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  max-width: 100%;
+  transition: .5s ease;
+  justify-content :flex-start;
+
+}
+
+.img_effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: .5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.img:hover .image {
+  opacity: 0.4;
+}
+
+.img:hover .img_effect {
+  opacity: 1;
+}
+
+.text a{
+  font-family: 'Mulish', sans-serif;
+  color: #A0A0A0;
+  font-size: 25px;
+  text-align: center;
+}
+
+.text a:hover{
+  color: #EDD5D2;
+  font-weight:bolder;
+}
+
+.text a:focus{
+  color: #B99592;
+  font-weight:bolder;
+}
+
+@media only screen and (max-width:560px){
+  div.furniture_design>div.img{
+    width: 80%;
+  }
+
+  div.img_effect >div.text a{
+    font-size: 20px;
+  }
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(50,50,50);
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: rgb(200,200,200);
+}
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+/* Paragraphs */
+.paragraphs p{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 1.5rem;
+}
+
+ol li{
+  margin-top: 2rem;
+
+}
