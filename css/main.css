@@ -73,6 +73,10 @@ code {
 
 .study_guide {
   overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  flex-wrap: wrap;
 }
 
 .study_guide a {
