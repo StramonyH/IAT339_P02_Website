@@ -19,7 +19,7 @@ section{
 
 .element {
   padding-bottom: 2rem;
-  border-top-width: 0.15rem;
+  border-top-width: 1px;
   border-top-style: solid;
   border-top-color: black;
 }
@@ -469,7 +469,7 @@ ol li{
 }
 
 .add-btn a{
-  background-color: #EDD5D2;
+  background-color: #B99592;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -484,11 +484,11 @@ ol li{
 }
 
 .add-btn a:hover{
-  background-color: #B99592;
+  background-color: #EDD5D2;
 }
 
 .add-btn a:focus{
-  background-color: #EDD5D2;
+  background-color: #B99592;
 }
 
 @media only screen and (max-width:560px){
@@ -507,6 +507,15 @@ ol li{
   border: 1px solid lightgrey;
   border-radius: 1rem;
   margin-top: 3rem;
+}
+
+.payment_box_contact {
+  background-color: rgb(243, 232, 231);
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  width: 60%;
 }
 
 input[type=text] {
@@ -662,6 +671,7 @@ input[type=text] {
 
 .pdctImg{
   width: 100%;
+  max-width: 18rem;
 }
 
 @media only screen and (max-width:920px){

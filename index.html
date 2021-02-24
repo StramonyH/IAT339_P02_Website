@@ -353,7 +353,7 @@
             </div>
             <div class="product_discription">
               <h4>description</h4>
-              <p>This is a cake with mango flavor. Use Australian mango and pure vegetable cream, purely handmade.
+              <p class="pdct_desc">This is a cake with mango flavor. Use Australian mango and pure vegetable cream, purely handmade.
                 Mango diced is added to the cake base to increase the taste.</p>
               <h4>price</h4>
               <span>$70</span>
@@ -370,7 +370,7 @@
               </div>
               <div class="product_discription">
                 <h4>description</h4>
-                <p>This is a cake with chocolate flavor. Use chocolate from Italy and pure vegetable cream, purely handmade.
+                <p class="pdct_desc">This is a cake with chocolate flavor. Use chocolate from Italy and pure vegetable cream, purely handmade.
                   cookies diced is added to the cake base to increase the taste.
                   </p>
                 <h4>price</h4>
@@ -388,7 +388,7 @@
                </div>
                <div class="product_discription">
                  <h4>description</h4>
-                 <p>This is a cake with strawberry flavor. Use fresh strawberry and pure vegetable cream, purely handmade.
+                 <p class="pdct_desc">This is a cake with strawberry flavor. Use fresh strawberry and pure vegetable cream, purely handmade.
                    strawberry diced is added to the cake base to increase the taste.</p>
                  <h4>price</h4>
                  <span>$90</span>
@@ -588,8 +588,8 @@
     <!-- // COMBINED ELEMENTS SECTION -->
 
     <!-- // BRAND COMPONENTS SECTION -->
-    <section id="brand-components">
-      <h2>Brand Components</h2>
+    <section id="about-company">
+      <h2>About the Company</h2>
 
         <h4>CSS selector:</h4>
           <p>ul</p>
@@ -597,7 +597,7 @@
 
         <h4>Rendered element:</h4>
           <ul>
-            <li>The company "One Cake Boutique" is a cake/dessert brand, aiming to provide both great
+            <li>Our company "One Cake Boutique" is a cake/dessert brand, aiming to provide both great
               taste and amazing visual experiences for the customers. The company would not only make
               classic styles of cakes but also would like to tie the popular elements into the products.
               The concept and slogan of the company would be "Stay Simple, Stay True."</li>
@@ -609,6 +609,52 @@
               other related products, as well as the brand concept will also be a good attraction for the
               customers, which matches the current popular elements.</li>
           </ul>
+    </section>
+
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+
+      <h4>CSS selector:</h4>
+        <p>#container</p>
+        <p>fieldset</p>
+
+      <h4>Rendered element:</h4>
+
+        <div class="payment_box_contact">
+          <h3>Your Contact Information</h3>
+          <hr>
+          <form>
+
+            <label for="yname">*Name</label>
+            <input type="text" id="yname" name="yourname" placeholder="First Middle Last">
+
+            <label for="eaddress">*Email Address</label>
+            <input type="text" id="eaddress" name="emailaddress" placeholder="abcdef@gmail.com">
+
+            <label for="phonenbr">*Phone Number</label>
+            <input type="text" id="phonenbr" name="phonenumber" placeholder="778-999-9999">
+
+            <label for="raddress">Residental Address</label>
+            <input type="text" id="raddress" name="resaddress" placeholder="999 Smith Rd.">
+
+
+            <div class="row">
+              <div class="col_25">
+                <label for="ycity">City</label>
+                <input type="text" id="ycity" name="yourcity" placeholder="Vancouver">
+              </div>
+              <div class="col_25">
+                <label for="yprovince">Province</label>
+                <input type="text" id="yprovince" name="yourprovince" placeholder="British Columbia">
+              </div>
+              <div class="col_25">
+                <label for="ypostal">Postal Code</label>
+                <input type="text" id="ypostal" name="yourpostalcode" placeholder="A1B 2C3">
+              </div>
+            </div>
+          </form>
+        </div>
+
     </section>
 
     <!-- // ASSEMBLE BRAND SECTION -->
