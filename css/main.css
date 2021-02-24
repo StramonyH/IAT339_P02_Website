@@ -465,7 +465,7 @@ ol li{
 }
 
 .add-btn a{
-  background-color: #EDD5D2;
+  background-color: #B99592;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -480,11 +480,11 @@ ol li{
 }
 
 .add-btn a:hover{
-  background-color: #B99592;
+  background-color: #EDD5D2;
 }
 
 .add-btn a:focus{
-  background-color: #EDD5D2;
+  background-color: #B99592;
 }
 
 @media only screen and (max-width:560px){
