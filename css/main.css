@@ -699,3 +699,13 @@ ul li{
 .product_detail{
   display: flex;
 }
+
+.product_detail_img{
+  width: 500px;
+  height:500px;
+  padding: 1rem;
+}
+
+.product_detail_infobox{
+  
+}
