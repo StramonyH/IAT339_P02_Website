@@ -693,3 +693,9 @@ ul li{
 .font img{
   width: 100%;
 }
+
+/* Product Detail Page */
+
+.product_detail{
+  display: flex;
+}
