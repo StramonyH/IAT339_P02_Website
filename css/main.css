@@ -724,3 +724,10 @@ ul li{
   justify-content: space-evenly;
   margin-left: 2rem;
 }
+
+
+/* Checkout Cart Page */
+.total_price> h6{
+  font-size: 2rem;
+  margin-top: 5px;
+}
