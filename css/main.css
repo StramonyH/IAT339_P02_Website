@@ -35,12 +35,15 @@ h2 {
   font-family: 'Sriracha', cursive;
   font-weight: bolder;
   text-shadow: #EDD5D2 5px 0 10px;
+  font-size: 30px;
 }
 
 h3 {
   color: #865B5B;
-  font-style: italic;
-  margin-top: 1rem;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 25px;
+
 }
 
 h4 {
@@ -130,67 +133,6 @@ code {
 }
 
 
-/*
-  INTERACTIVE ELEMENTS -------------------
-*/
-
-/*In-text section elements*/
-a{
-  color: #865B5B;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: bolder;
-}
-
-a.intext:hover{
-  color: #B99592;
-  text-shadow: #F0D5D2 1px 0 10px;
-  transition: .5s ease;
-  font-weight:bolder;
-}
-
-a.intext:focus{
-  color: #2D3E4E;
-}
-
-/*Navigation link elements*/
-.navigationBar a {
-  margin: 2rem;
-  color:#865B5B;
-  font-size: 18px;
-  text-decoration: none;
-  border-bottom: 3px solid transparent;
-}
-
-.navigationBar a:hover {
-  color: #B99592;
-  border-bottom: #EDD5D2 solid 3px;
-  transition: .5s ease;
-}
-
-/*subimit/reset button*/
-.submit-btn button{
-  background-color: #EDD5D2;
-  color: white;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-}
-
-.reset:hover, .submit:hover, .checkout:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.reset:focus, .submit:focus, .checkout:focus {
-  color: grey;
-}
 
 /*Text input field with label*/
 fieldset{
@@ -450,40 +392,7 @@ ol li{
     width: 80%;
   }
 }
-/* Product/service listing */
 
-#products{
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-
-}
-
-
-.furniture_list h2{
-  text-align: center;
-}
-
-.single{
-  width: 25%;
-}
-
-.single h4{
-  text-align: center;
-}
-
-.single>.product_discription{
-  text-align: center;
-}
-
-.single .product_img{
-  text-align: center;
-}
-
-.single>.product_img img{
-  width: 80%;
-
-}
 
 #product_listing, #product_listing section{
   margin-top: 1rem;
@@ -723,4 +632,88 @@ ul li{
 
 .font img{
   width: 100%;
+}
+
+/*-------------------------------------------------------- product_list---------------------------------------------------------------- */
+
+/* header */
+.study_guide{
+  width: 75%;
+  height:3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.study_guide a {
+  float: left;
+  display: block;
+  color: #865B5B;
+  text-align: center;
+  padding: 0.8rem;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 3px solid transparent;
+}
+
+.study_guide a:hover {
+  color: #B99592;
+  border-bottom: #EDD5D2 solid 3px;
+  transition: .5s ease;
+}
+
+.study_guide a:focus {
+  color: #2D3E4E;
+}
+
+.product-cake{
+  margin-top: 10rem;
+}
+.product-cake-h3{
+  margin-top: 4rem;
+}
+
+/* Product/service listing */
+
+#products{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+
+.furniture_list h2{
+  text-align: center;
+}
+
+.single:nth-of-type(1){
+  width: 25%;
+}
+
+.single:nth-of-type(2){
+  width: 25%;
+}
+
+.single:nth-of-type(3){
+  width: 25%;
+}
+
+.single h4{
+  text-align: center;
+}
+
+.single:nth-of-type(n)>.product_price{
+  text-align: center;
+}
+
+.single:nth-of-type(n) .product_img{
+  text-align: center;
+}
+
+.single:nth-of-type(n)>.product_img img{
+  width: 80%;
+  cursor: pointer;
+
 }
