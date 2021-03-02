@@ -69,6 +69,10 @@ code {
   line-height: 1rem;
 }
 
+span {
+  color: #B99592;
+}
+
 /*study guide navigation*/
 
 .study_guide {
@@ -419,17 +423,20 @@ ol li{
     width: 80%;
   }
 }
+
+
 /* Product/service listing */
 
 #products{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-top: 2rem;
 
 }
 
 
-.furniture_list h2{
+.product_list h2{
   text-align: center;
 }
 
@@ -693,6 +700,9 @@ ul li{
 .font img{
   width: 100%;
 }
+
+
+
 
 /* Product Detail Page */
 
