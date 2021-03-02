@@ -75,12 +75,41 @@ span {
 
 /*study guide navigation*/
 
-.study_guide {
-  overflow: hidden;
+.header {
   display: flex;
-  justify-content: space-evenly;
-  padding: 1rem;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+}
+/* logo */
+.header>figure.logo{
+  width: 10%;
+}
+
+.logo>img{
+  width: 100%;
+
+}
+
+/* logo */
+.header>figure.cart{
+  width: 5%;
+}
+
+.cart>img{
+  width: 60%;
+
+}
+
+/* header */
+.study_guide{
+  width: 75%;
+  height:3em;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .study_guide a {
