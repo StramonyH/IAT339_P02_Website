@@ -20,7 +20,7 @@ section{
 .element {
   padding-bottom: 2rem;
   border-top-width: 1px;
-  border-top-style: solid;
+  border-top-style: none;
   border-top-color: black;
 }
 
@@ -723,4 +723,11 @@ ul li{
   flex-direction: column;
   justify-content: space-evenly;
   margin-left: 2rem;
+}
+
+
+/* Checkout Cart Page */
+.total_price> h6{
+  font-size: 2rem;
+  margin-top: 5px;
 }
