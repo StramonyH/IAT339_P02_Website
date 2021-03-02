@@ -20,7 +20,7 @@ section{
 .element {
   padding-bottom: 2rem;
   border-top-width: 1px;
-  border-top-style: solid;
+  border-top-style: none;
   border-top-color: black;
 }
 
