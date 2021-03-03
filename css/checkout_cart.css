@@ -79,6 +79,11 @@
   text-align: center!important;
 }
 
+.total_price>h6 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
 .cart_buttons{
   display: flex;
   justify-content: flex-end;
