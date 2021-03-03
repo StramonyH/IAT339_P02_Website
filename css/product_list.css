@@ -5,6 +5,10 @@
   margin-top: 4rem;
 }
 
+.product-cake-h3 h3{
+  text-align: center;
+}
+
 #products{
   display: flex;
   justify-content: space-evenly;
