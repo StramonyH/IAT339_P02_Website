@@ -1,0 +1,46 @@
+.product-cake{
+  margin-top: 10rem;
+}
+.product-cake-h3{
+  margin-top: 4rem;
+}
+
+#products{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+
+.furniture_list h2{
+  text-align: center;
+}
+
+.single:nth-of-type(1){
+  width: 25%;
+}
+
+.single:nth-of-type(2){
+  width: 25%;
+}
+
+.single:nth-of-type(3){
+  width: 25%;
+}
+
+.single h4{
+  text-align: center;
+}
+
+.single:nth-of-type(n)>.product_price{
+  text-align: center;
+}
+
+.single:nth-of-type(n) .product_img{
+  text-align: center;
+}
+
+.single:nth-of-type(n)>.product_img img{
+  width: 80%;
+}
