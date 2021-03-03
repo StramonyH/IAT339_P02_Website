@@ -20,7 +20,7 @@ section{
 .element {
   padding-bottom: 2rem;
   border-top-width: 1px;
-  border-top-style: solid;
+  border-top-style: none;
   border-top-color: black;
 }
 
@@ -70,6 +70,10 @@ code {
   margin-right: 2rem;
   background-color: rgb(255, 255, 255, 0.4);
   line-height: 1rem;
+}
+
+span {
+  color: #B99592;
 }
 
 /*study guide navigation*/
@@ -241,8 +245,6 @@ label.room span.room:after {
   position: relative;
   width: 30%;
   justify-content :flex-start;
-
-
 }
 
 .image {
@@ -335,7 +337,7 @@ ol li{
 /*
   COMBINED ELEMENTS -------------------
 */
-/* .main_navigation {
+.main_navigation {
   overflow: hidden;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -375,7 +377,7 @@ ol li{
 
 .main_navigation a:focus,.dropdown:focus .dropbtn{
   color: #737272;
-} */
+}
 
 .single_p{
   width:25rem;
@@ -392,6 +394,44 @@ ol li{
     width: 80%;
   }
 }
+<<<<<<< HEAD
+
+
+/* Product/service listing */
+
+#products{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+
+}
+
+
+.product_list h2{
+  text-align: center;
+}
+
+.single{
+  width: 25%;
+}
+
+.single h4{
+  text-align: center;
+}
+
+.single>.product_discription{
+  text-align: center;
+}
+
+.single .product_img{
+  text-align: center;
+}
+
+.single>.product_img img{
+  width: 80%;
+=======
+>>>>>>> product_list
 
 
 #product_listing, #product_listing section{
@@ -632,4 +672,118 @@ ul li{
 
 .font img{
   width: 100%;
+}
+
+<<<<<<< HEAD
+
+
+
+/* Product Detail Page */
+
+.product_detail{
+  display: flex;
+  padding: 2rem;
+
+}
+
+.product_detail_img{
+  width: 400px;
+  height: 400px;
+  padding: 1rem;
+}
+
+.product_detail_infobox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 2rem;
+}
+
+
+/* Checkout Cart Page */
+.total_price> h6{
+  font-size: 2rem;
+  margin-top: 5px;
+=======
+/*-------------------------------------------------------- product_list---------------------------------------------------------------- */
+
+/* header */
+.study_guide{
+  width: 75%;
+  height:3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.study_guide a {
+  float: left;
+  display: block;
+  color: #865B5B;
+  text-align: center;
+  padding: 0.8rem;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 3px solid transparent;
+}
+
+.study_guide a:hover {
+  color: #B99592;
+  border-bottom: #EDD5D2 solid 3px;
+  transition: .5s ease;
+}
+
+.study_guide a:focus {
+  color: #2D3E4E;
+}
+
+.product-cake{
+  margin-top: 10rem;
+}
+.product-cake-h3{
+  margin-top: 4rem;
+}
+
+/* Product/service listing */
+
+#products{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+
+.furniture_list h2{
+  text-align: center;
+}
+
+.single:nth-of-type(1){
+  width: 25%;
+}
+
+.single:nth-of-type(2){
+  width: 25%;
+}
+
+.single:nth-of-type(3){
+  width: 25%;
+}
+
+.single h4{
+  text-align: center;
+}
+
+.single:nth-of-type(n)>.product_price{
+  text-align: center;
+}
+
+.single:nth-of-type(n) .product_img{
+  text-align: center;
+}
+
+.single:nth-of-type(n)>.product_img img{
+  width: 80%;
+>>>>>>> product_list
 }
