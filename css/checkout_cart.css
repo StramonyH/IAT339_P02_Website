@@ -144,3 +144,9 @@
   }
 
 }
+
+.contact-info h2,p{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
