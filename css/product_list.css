@@ -1,12 +1,17 @@
 .product-cake{
   margin-top: 10rem;
 }
+
 .product-cake-h3{
   margin-top: 4rem;
+  text-align: center;
+  text-shadow: rgba(134, 91, 91, 0.6) 5px 0 10px;
 }
 
 .product-cake-h3 h3{
   text-align: center;
+  font-style: normal;
+  font-family: 'Comfortaa', cursive;
 }
 
 #products{
@@ -42,10 +47,18 @@
 }
 
 .single:nth-of-type(n) .product_img{
+  padding-top: 2rem;
   text-align: center;
 }
 
 .single:nth-of-type(n)>.product_img img{
-  width: 80%;
+  width: 70%;
+  cursor: pointer;
+  transition: all 0.6s;
 }
+
+.single:nth-of-type(n)>.product_img img:hover{
+  transform: scale(1.15);
+}
+
 /*  */
