@@ -700,27 +700,3 @@ ul li{
 .font img{
   width: 100%;
 }
-
-
-
-
-/* Product Detail Page */
-
-.product_detail{
-  display: flex;
-  padding: 2rem;
-
-}
-
-.product_detail_img{
-  width: 400px;
-  height: 400px;
-  padding: 1rem;
-}
-
-.product_detail_infobox{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  margin-left: 2rem;
-}
