@@ -1,0 +1,146 @@
+/* shopping cart page css */
+.cart_toptag{
+  display: flex;
+  margin-top: 3rem;
+}
+
+
+.empty50{
+  width: 0;
+}
+
+.empty75{
+  width: 0;
+}
+
+.empty70{
+  width:70%;
+}
+
+.cart_toptag1{
+  width:10%;
+  text-align: center;
+
+}
+
+.cart_toptag2{
+  width:20%;
+  text-align: center;
+}
+
+.cart_item{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cart_item_pic{
+  width:30%;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.cart_item_info{
+  flex-direction: row;
+  text-align: center;
+  width:40%;
+}
+
+.cart_item_amount{
+  width:10%;
+  text-align: center;
+}
+
+.price_sum{
+  width:20%;
+  text-align: center;
+}
+
+.total_cart{
+  text-align: right;
+}
+
+.total_price{
+  display: flex;
+}
+
+.empty80{
+  width:80%;
+}
+
+.total_price_h3{
+  width: 20%!important;
+  text-align: center;
+}
+
+.total_price_h6{
+  width: 20%!important;
+  text-align: center!important;
+}
+
+.total_price>h6 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.cart_buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.payment_buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+/* flex shrink percentage of the input box */
+.col_25 {
+  flex: 25%;
+}
+
+.col_50 {
+  flex: 50%;
+}
+
+.col_25,
+.col_50{
+  padding: 0 1rem;
+}
+
+#payment_box {
+  background-color: #FFFEF4;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+  margin-top: 3rem;
+}
+
+.col_50 label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.pdctImg{
+  width: 100%;
+  max-width: 18rem;
+}
+
+@media only screen and (max-width:920px){
+  .pdctImg{
+    max-width: 12rem;
+    max-height: 12rem;
+  }
+
+}
