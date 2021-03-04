@@ -7,8 +7,6 @@ body {
   background-color: #FFEFEE;
   font-family: 'Mulish', sans-serif;
   padding: 2rem;
-  margin-left: 5%;
-  margin-right: 5%;
   /* padding: 2rem; */
 }
 
@@ -31,16 +29,18 @@ h1{
 
 h2 {
   color: #865B5B;
-  font-family: 'Balsamiq Sans', cursive;
-  font-family: 'Sriracha', cursive;
-  font-weight: bolder;
+  /* font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Sriracha', cursive; */
   text-shadow: #EDD5D2 5px 0 10px;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
 }
 
 h3 {
   color: #865B5B;
-  font-style: italic;
-  margin-top: 1rem;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+  font-style: normal;
 }
 
 h4 {
@@ -53,6 +53,8 @@ p {
   margin-top: 1rem;
   font-size: 14px;
   color: #865B5B;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
 }
 
 nav a:hover, nav a:focus {
@@ -236,4 +238,96 @@ label {
   margin-bottom: 0.5rem;
   display: block;
   color: #865B5B;
+}
+
+/* footer */
+.footer{
+  background-color: #865B5B;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15rem;
+}
+
+
+.footer-left{
+  width:33%;
+  padding: 5%;
+}
+
+.footer-left-top{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left-top-icon{
+  width:10%;
+}
+
+.footer-left-top-icon img{
+  width: 100%;
+}
+
+.footer-left-bottom{
+  margin-top: 2rem;
+}
+
+.footer-left-bottom-content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.footer-left-bottom-icon{
+  width:15%;
+  text-align: center;
+}
+
+.footer-left-bottom-icon img{
+  width:100%;
+}
+
+.footer-left-bottom-text{
+  width:70%;
+  padding-left: 1rem;
+}
+
+.footer-left-bottom-text p{
+  color:#FFEFEE;
+  font-size: 10px;
+}
+
+.footer-center{
+  width:33%;
+  padding: 5%;
+}
+
+.footer-center p{
+  color:#FFEFEE;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.support-content p{
+    color:#FFEFEE;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.footer-right{
+  width:33%;
+  padding: 5%;
+}
+
+.footer-right p{
+  color:#FFEFEE;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.export-content p{
+    color:#FFEFEE;
+    font-size: 10px;
+    font-weight: normal;
 }
