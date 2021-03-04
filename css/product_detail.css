@@ -1,5 +1,9 @@
 /* Product Detail Page */
 
+#product_details_info .element{
+  border-top-style: hidden;
+}
+
 .product_detail{
   display: flex;
   padding: 2rem;
@@ -17,6 +21,14 @@
   flex-direction: column;
   justify-content: space-evenly;
   margin-left: 2rem;
+}
+
+.product_detail_infobox_amount .add-btn {
+  text-align: left;
+}
+
+.product_detail_infobox_amount .add-btn a{
+  margin: 0;
 }
 
 /* Product/service listing */
