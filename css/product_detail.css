@@ -23,6 +23,14 @@
   margin-left: 2rem;
 }
 
+.product_detail_infobox_amount .add-btn {
+  text-align: left;
+}
+
+.product_detail_infobox_amount .add-btn a{
+  margin: 0;
+}
+
 /* Product/service listing */
 
 #products{
