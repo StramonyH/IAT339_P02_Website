@@ -291,6 +291,7 @@ label {
 .footer-left-bottom-text{
   width:70%;
   padding-left: 1rem;
+  text-align: center;
 }
 
 .footer-left-bottom-text p{
@@ -299,6 +300,7 @@ label {
 }
 
 .footer-center{
+  text-align: center;
   width:33%;
   padding: 5%;
 }
@@ -309,6 +311,11 @@ label {
   font-weight: bolder;
 }
 
+.support-content{
+  text-align: center;
+  padding-top: 1rem;
+}
+
 .support-content p{
     color:#FFEFEE;
     font-size: 10px;
@@ -316,6 +323,7 @@ label {
 }
 
 .footer-right{
+  text-align: center;
   width:33%;
   padding: 5%;
 }
@@ -324,6 +332,11 @@ label {
   color:#FFEFEE;
   font-size: 15px;
   font-weight: bolder;
+}
+
+.export-content{
+  text-align: center;
+  padding-top: 1rem;
 }
 
 .export-content p{
