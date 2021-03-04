@@ -2,6 +2,11 @@
   margin-top: 10rem;
 }
 
+.product-cake-h2 h2{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+}
+
 .product-cake-h3{
   margin-top: 4rem;
   text-align: center;
@@ -12,6 +17,7 @@
   text-align: center;
   font-style: normal;
   font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
 }
 
 #products{
@@ -61,4 +67,18 @@
   transform: scale(1.15);
 }
 
+.footer-left-bottom-text p{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+}
+
+.footer-center p{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+}
+
+.footer-right p{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+}
 /*  */
