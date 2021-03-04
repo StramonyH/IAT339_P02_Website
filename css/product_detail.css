@@ -1,5 +1,9 @@
 /* Product Detail Page */
 
+#product_details_info .element{
+  border-top-style: hidden;
+}
+
 .product_detail{
   display: flex;
   padding: 2rem;
