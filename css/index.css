@@ -1,7 +1,7 @@
-* {
+/* * {
   box-sizing: border-box;
   border: 1px solid pink;
-}
+} */
 
 .home{
   padding-top: 2rem;
@@ -25,10 +25,15 @@
 .news h2{
   text-align: center;
 }
+
 .company-new-h2{
   width: 40%;
   margin: 1% 5%;
   text-align: center;
+}
+
+.service{
+  margin-top: 10rem;
 }
 
 .service h2{
@@ -71,4 +76,125 @@
 
 .service-text p{
   color: #B99592;
+}
+
+.about-us{
+  /* background-color: #EDD5D2; */
+  border-width: 3px;
+  border-color: #865B5B;
+  border-style: solid;
+  margin: 6% 6%;
+}
+
+.about-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-info-logo{
+  padding: 3rem;
+  width: 40%;
+}
+
+.about-info-logo img{
+  max-width: 100%;
+}
+
+.about-info-text{
+  width: 60%;
+}
+
+.about-info-text h2{
+  text-align: center;
+}
+
+.footer{
+  background-color: #865B5B;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15rem;
+}
+
+
+.footer-left{
+  width:33%;
+  padding: 5%;
+}
+
+.footer-left-top{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left-top-icon{
+  width:10%;
+}
+
+.footer-left-top-icon img{
+  width: 100%;
+}
+
+.footer-left-bottom{
+  margin-top: 2rem;
+}
+
+.footer-left-bottom-content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.footer-left-bottom-icon{
+  width:15%;
+  text-align: center;
+}
+
+.footer-left-bottom-icon img{
+  width:100%;
+}
+
+.footer-left-bottom-text{
+  width:70%;
+  padding-left: 1rem;
+}
+
+.footer-left-bottom-text p{
+  color:#FFEFEE;
+  font-size: 10px;
+}
+
+.footer-center{
+  width:33%;
+  padding: 5%;
+}
+
+.footer-center p{
+  color:#FFEFEE;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.support-content p{
+    color:#FFEFEE;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.footer-right{
+  width:33%;
+  padding: 5%;
+}
+
+.footer-right p{
+  color:#FFEFEE;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.export-content p{
+    color:#FFEFEE;
+    font-size: 10px;
+    font-weight: normal;
 }
