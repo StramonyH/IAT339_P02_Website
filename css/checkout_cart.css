@@ -1,4 +1,12 @@
 /* shopping cart page css */
+.element{
+  padding-bottom: 2rem;
+  border-top-width: 1px;
+  border-top-style: none;
+  border-top-color: black;
+}
+
+
 .cart_toptag{
   display: flex;
   margin-top: 3rem;
