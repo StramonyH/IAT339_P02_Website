@@ -24,9 +24,22 @@
 
 .news h2{
   text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
 }
 
-.company-new-h2{
+.company-news-events h3{
+  font-size: 20px;
+  font-style: normal;
+  }
+
+.company-news-events p{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+}
+
+.ompany-new-h2{
   width: 40%;
   margin: 1% 5%;
   text-align: center;
@@ -38,6 +51,8 @@
 
 .service h2{
   text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
 }
 
 .service-all{
@@ -106,95 +121,28 @@
 
 .about-info-text h2{
   text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
 }
 
-.footer{
-  background-color: #865B5B;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 15rem;
-}
-
-
-.footer-left{
-  width:33%;
-  padding: 5%;
-}
-
-.footer-left-top{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.footer-left-top-icon{
-  width:10%;
-}
-
-.footer-left-top-icon img{
-  width: 100%;
-}
-
-.footer-left-bottom{
-  margin-top: 2rem;
-}
-
-.footer-left-bottom-content{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-}
-
-.footer-left-bottom-icon{
-  width:15%;
-  text-align: center;
-}
-
-.footer-left-bottom-icon img{
-  width:100%;
-}
-
-.footer-left-bottom-text{
-  width:70%;
-  padding-left: 1rem;
+.about-info-text p{
+  padding-top: 3rem;
+  padding-left: 5rem;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
 }
 
 .footer-left-bottom-text p{
-  color:#FFEFEE;
-  font-size: 10px;
-}
-
-.footer-center{
-  width:33%;
-  padding: 5%;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
 }
 
 .footer-center p{
-  color:#FFEFEE;
-  font-size: 15px;
-  font-weight: bolder;
-}
-
-.support-content p{
-    color:#FFEFEE;
-    font-size: 10px;
-    font-weight: normal;
-}
-
-.footer-right{
-  width:33%;
-  padding: 5%;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
 }
 
 .footer-right p{
-  color:#FFEFEE;
-  font-size: 15px;
-  font-weight: bolder;
-}
-
-.export-content p{
-    color:#FFEFEE;
-    font-size: 10px;
-    font-weight: normal;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
 }
