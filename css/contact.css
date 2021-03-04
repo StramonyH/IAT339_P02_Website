@@ -26,6 +26,8 @@
   display: flex;
   flex-wrap: wrap;
   margin: 5rem;
+  background-color: #EDD5D2;
+  /* background-color: rgb(237, 213, 201, 0.8); */
 }
 
 .location h3{
@@ -64,6 +66,7 @@
 }
 
 .icon:nth-of-type(n) img{
+  cursor: pointer;
   width:40%;
 }
 
@@ -95,4 +98,23 @@ input[type=submit] {
 
 .location input:hover::placeholder{
   color: rgb(215, 215, 215);
+}
+
+@media screen and (max-width: 900px) {
+  .contact-container{
+    margin: 0!important;
+    /* background-color: rgb(237, 213, 201, 0.8); */
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contact-container{
+    margin: 0!important;
+    /* background-color: rgb(237, 213, 201, 0.8); */
+  }
+
+  .location, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
