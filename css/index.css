@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid pink;
+}
+
+.home{
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.home img{
+  width:80%
+}
+
+.news{
+  background-color: rgb(255,255,255,0.5);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2% 20%;
+  padding: 0% 15%;
+}
+
+.news h2{
+  text-align: center;
+}
+.company-new-h2{
+  width: 40%;
+  margin: 1% 5%;
+  text-align: center;
+}
+
+.service h2{
+  text-align: center;
+}
+
+.service-all{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 2% 5%;
+}
+
+.service-cake,.service-drink{
+    width: 35%;
+    margin: 1% 5%;
+}
+
+
+.service-icon{
+  width:30%;
+
+}
+
+.service-icon img{
+  width: 100%;
+}
+
+.service-cake,.service-drink{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+.service-text h4{
+    color: #B99592;
+  }
+
+.service-text p{
+  color: #B99592;
+}
