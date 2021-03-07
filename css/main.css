@@ -6,13 +6,15 @@ body {
   /*Change the default font*/
   background-color: #FFEFEE;
   font-family: 'Mulish', sans-serif;
-  padding: 2rem;
+  margin: 0;
   /* padding: 2rem; */
 }
 
 /*Add space between section elements*/
 section{
   margin-bottom: 5rem;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .element {
