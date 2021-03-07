@@ -1,7 +1,7 @@
-* {
+/* * {
   box-sizing: border-box;
   border: 1px solid pink;
-}
+} */
 
 .home{
   padding-top: 2rem;
@@ -12,21 +12,38 @@
   width:100%
 }
 
+/* news website */
 .news{
-  background-color: rgb(255,255,255,0.5);
-  display: flex;
+  /* background-color: #B99592; */
+  /* display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  margin: 2% 20%;
-  padding: 0% 15%;
+  margin: 15% 20%; */
+  margin-left: 10%;
+  margin-right: 10%;
+
 }
 
 .news h2{
-  text-align: center;
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
 }
+
+.news-all{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* margin: 2% 5%; */
+}
+
+.company-news-events{
+  width: 45%;
+}
+
+/* .company-news-events h2{
+  text-decoration: underline;
+} */
 
 .company-news-events h3{
   font-size: 20px;
@@ -36,69 +53,86 @@
 .company-news-events p{
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
-  font-size: 18px;
+  padding: 2%;
+
+  /* font-size: 18px; */
 }
 
-.ompany-new-h2{
-  width: 40%;
-  margin: 1% 5%;
-  text-align: center;
-}
-
-.service{
-  margin-top: 10rem;
-}
-
-.service h2{
-  text-align: center;
-  font-family: 'Comfortaa', cursive;
-  font-family: 'Merriweather', serif;
-}
-
-.service-all{
+.company-news-pic{
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin: 2% 5%;
+  width:55%;
+ justify-content: space-between;
 }
 
-.service-cake,.service-drink{
-    width: 35%;
-    margin: 1% 5%;
+.company-pic-1,.company-pic-2{
+  width: 50%;
 }
 
-
-.service-icon{
-  width:30%;
-
+.company-pic-1{
+  /* margin-right: 5%; */
+}
+.company-pic-1-news,.company-pic-2-news{
+  margin: 5%;
 }
 
-.service-icon img{
-  width: 100%;
+.company-pic-1-news img,.company-pic-2-news img{
+  width:100%;
 }
 
-.service-cake,.service-drink{
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  text-align: center;
-}
-
-
-.service-text h4{
-    color: #B99592;
+/* news updates mobile */
+@media only screen and (max-width:900px){
+  .company-news-events h2{
+    font-size: 20px;
   }
 
-.service-text p{
-  color: #B99592;
+  .company-news-events h3{
+    font-size: 16px;
+  }
 }
 
+@media only screen and (max-width:800px){
+  .company-news-events h2{
+    font-size: 19px;
+  }
+
+  .company-news-events h3{
+    font-size: 15px;
+  }
+
+  .company-news-pic, .company-news-events{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .company-news-pic{
+    flex-direction: column;
+  }
+
+  .company-pic-1,.company-pic-2{
+    width:100%;
+  }
+
+  .company-pic-1-news,.company-pic-2-news{
+    width:100%;
+    text-align: center;
+  }
+
+  .company-pic-1-news img,.company-pic-2-news img{
+    width: 80%;
+  }
+}
+
+/* about us website */
 .about-us{
   /* background-color: #EDD5D2; */
   border-width: 3px;
   border-color: #865B5B;
+
   border-style: solid;
-  margin: 6% 6%;
+  margin-top: 8rem;
+  margin-left: 5%;
+  margin-right: 5%;
 
 }
 
@@ -168,6 +202,54 @@
   }
 }
 
+.service{
+  margin-top: 8rem;
+}
+
+.service h2{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+}
+
+.service-all{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 2% 5%;
+}
+
+.service-cake,.service-drink{
+    width: 35%;
+    margin: 1% 5%;
+}
+
+
+.service-icon{
+  width:30%;
+
+}
+
+.service-icon img{
+  width: 100%;
+}
+
+.service-cake,.service-drink{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+.service-text h4{
+    color: #B99592;
+  }
+
+.service-text p{
+  color: #B99592;
+}
+
 .footer-left-bottom-text p{
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
@@ -200,6 +282,7 @@
 .cart{
   width:10%;
   text-align: center;
+  margin-top: 3rem;
 }
 
 .cart img{
@@ -207,7 +290,7 @@
 }
 
 .navigation{
-  width:70%;
+  width:65%;
 	margin:0.5rem 0;
 	position:sticky;
 	top:1rem;
@@ -251,10 +334,6 @@
 	display:none;
 }
 
-.cart img{
-  width:40px;
-}
-
 @media only screen and (max-width:800px){
   .header{
     display: block;
@@ -289,11 +368,13 @@
 	}
 
   .phone-menu-icon{
-    float: right;
+    margin: 0;
+
   }
 
   .phone-menu-icon img{
 		display:block;
+
 	}
 
 	.navigation #menu:checked + ul{
