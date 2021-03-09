@@ -182,6 +182,14 @@ font-style: normal;
   width: 16.66%;
 }
 
+.mySlides img{
+  transition: transform 0.3s;
+  width:100%;
+}
+
+.mySlides img:hover{
+  transform: scale(1.3);
+}
 
 /* Add a transparency effect for thumnbail images */
 .demo {
