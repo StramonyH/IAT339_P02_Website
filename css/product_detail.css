@@ -70,9 +70,18 @@
 }
 
 #product_specifics{
-  background-color: blue;
+  background-color: #B99592;
   margin-left: 0;
   margin-right: 0;
+}
+
+#product_specifics h3{
+  color: #EDD5D2;
+}
+
+.product_specifics_band{
+  margin-top: 1rem;
+  margin-right: 1rem;
 }
 
 .product_list h2{
