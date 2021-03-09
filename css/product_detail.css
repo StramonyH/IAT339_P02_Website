@@ -75,16 +75,147 @@
   padding: 1rem;
 }
 
-@media only screen and (max-width:560px){
-  #products>div.single{
-    width: 100%;
-  }
-
-  div.single>div.product_img img{
-    width: 70%;
-  }
-}
-
 font-family: 'Comfortaa', cursive;
 font-family: 'Merriweather', serif;
 font-style: normal;
+
+
+
+/*图片展示部分的css*/
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.row:after {
+  content: "";
+  display: flex;
+  flex-direction: column;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: top;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#product_details h2{ text-align:center; margin-bottom:40px;}
+.carousel{ width:1440px; margin:0 auto;}
+
+
+.container_d
+{
+  position: relative;
+}
+.product_detail_infobox{ float:left; width:30%;     margin-left: 0px;}
+.prev, .next
+{
+  cursor: pointer;
+  position: absolute;
+  top: 47%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.prev{
+  left:0px; }
+  .next{ right:0px;}
+  .caption-container
+  {
+    display: none;
+  }
+  .row{ float:left; width:10%;}
+
+  .container_d{ float:left;width:49%; margin-left:5%;margin-right:5%;
+    position: relative;}
+    .column{ width:100%;}
+    .dddd { margin:0px auto; padding:0px; width:98%; max-width:400px; }
+    .dddd dl{ overflow:hidden;}
+    .dddd dl dd{ width:100%;  margin:0px; overflow:hidden;}
+    .dddd dl dd .left{ width:50%; float:left;}
+    .dddd dl dd .right{ width:50%; float:right;}
+    .dddd dl dd .left h2{ font-size:18px;}
+
+    @media only screen and (max-width:1400px)
+    {
+      .carousel{ width:100%; margin:0 auto;}
+    }
+
+    @media only screen and (max-width:768px)
+    {
+      .row {
+        float: left;
+        width: 60%;
+        overflow:hidden;
+        }.row .column{ width:33.333333%; float:left;}
+        .container_d {width:60%; margin-left:0%;margin-right:5%;  }
+        .product_detail_infobox{ float:left; width:30%;     margin-left: 0px;}
+      }
+      @media only screen and (max-width:560px){
+        #products>div.single{
+          width: 100%;
+        }
+
+        div.single>div.product_img img{
+          width: 70%;
+        }
+        .row {
+          float: left;
+          width: 100%;
+          overflow:hidden;float:none;
+        }
+        .container_d {width:100%; margin-left:0%;margin-right:0%;  float:none;}
+
+        .product_detail_infobox{ float:none; width:100%;     margin-left: 0px;}
+      }
