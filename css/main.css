@@ -69,44 +69,59 @@ span {
 
 /*navigation*/
 
-.header {
+.header{
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 2%;
-}
-/* logo */
-.header>figure.logo{
-  width: 10%;
-}
-
-.logo>img{
-  width: 100%;
-
-}
-
-/* logo */
-.header>figure.cart{
-  width: 5%;
-}
-
-.cart>img{
-  width: 60%;
-
-}
-
-/* header */
-.study_guide{
-  width: 75%;
-  height:3em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  /* border: 1px solid pink; */
   align-items: center;
 }
 
-.study_guide a {
+.logo{
+  width:20%;
+  text-align: center;
+}
+
+.logo img{
+  width:150px;
+  margin-top: 1.5rem;
+}
+
+.cart{
+  width:25%;
+  text-align: center;
+  /* margin-top: 3rem; */
+  /* border: 1px solid pink; */
+}
+
+.cart img{
+  width:40px;
+}
+
+.navigation{
+  /* border: 1px solid pink; */
+  width:55%;
+	margin:0.5rem 0;
+	position:sticky;
+	top:1rem;
+}
+
+.phone-menu-icon img{
+  /* font-size: 30px; */
+  width:40px;
+  display: none;
+}
+
+
+.navigation ul{
+  display:flex;
+	justify-content: space-between;
+	list-style-type:none;
+}
+
+.navigation li{
+  align-content: center;
+}
+
+.navigation ul a{
   float: left;
   display: block;
   color: #865B5B;
@@ -117,16 +132,90 @@ span {
   border-bottom: 3px solid transparent;
 }
 
-.study_guide a:hover {
+.navigation ul a:hover{
   color: #B99592;
   border-bottom: #EDD5D2 solid 3px;
   transition: .5s ease;
 }
 
-.study_guide a:focus {
-  color: #2D3E4E;
+.navigation #menu{
+	display:none;
 }
 
+@media only screen and (max-width:800px){
+  .header{
+    display: block;
+  }
+  .navigation{
+    width: 100%;
+  }
+
+	.navigation ul{
+		flex-direction: column;
+	}
+
+	.navigation ul li{
+		padding:3rem;
+      vertical-align: middle;
+	}
+
+	.navigation ul li:hover{
+		background-color:#FFFFFF;
+	}
+
+	.navigation ul a:hover{
+		border-bottom:0px solid white;
+	}
+
+	.cart img{
+		display:none;
+	}
+
+	.navigation nav ul{
+		display:none;
+	}
+
+  .phone-menu-icon{
+    margin: 0;
+
+  }
+
+  .phone-menu-icon img{
+		display:block;
+
+	}
+
+	.navigation #menu:checked + ul{
+		display:block;
+	}
+
+  .logo img{
+    width:100px;
+  }
+
+  .icon-display{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width:500px){
+	.navigation{
+		flex-direction: column;
+	}
+
+  .header>div.logo{
+    order:2;
+  }
+
+  .header>div.navigation{
+    order:1;
+  }
+
+  .header>div.cart{
+    order:3;
+  }
+}
 
 /*
   INTERACTIVE ELEMENTS -------------------
