@@ -282,19 +282,19 @@
 }
 
 .cart{
-  width:10%;
+  width:25%;
   text-align: center;
   /* margin-top: 3rem; */
   /* border: 1px solid pink; */
 }
 
 .cart img{
-  width:50px;
+  width:40px;
 }
 
 .navigation{
   /* border: 1px solid pink; */
-  width:65%;
+  width:55%;
 	margin:0.5rem 0;
 	position:sticky;
 	top:1rem;
@@ -302,7 +302,7 @@
 
 .phone-menu-icon img{
   /* font-size: 30px; */
-  width:50px;
+  width:40px;
   display: none;
 }
 
@@ -399,4 +399,16 @@
 	.navigation{
 		flex-direction: column;
 	}
+
+  .header>div.logo{
+    order:2;
+  }
+
+  .header>div.navigation{
+    order:1;
+  }
+
+  .header>div.cart{
+    order:3;
+  }
 }
