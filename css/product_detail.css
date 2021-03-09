@@ -135,6 +135,7 @@ font-style: normal;
   width: 16.66%;
 }
 
+
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
@@ -156,7 +157,7 @@ font-style: normal;
 {
   position: relative;
 }
-.product_detail_infobox{ float:left; width:30%;     margin-left: 0px;}
+.product_detail_infobox{ float:left; width:35%;     margin-left: 0px;}
 .prev, .next
 {
   cursor: pointer;
@@ -179,9 +180,9 @@ font-style: normal;
   {
     display: none;
   }
-  .row{ float:left; width:10%;}
+  .row{ float:left; width:7%; margin-left:5%}
 
-  .container_d{ float:left;width:49%; margin-left:5%;margin-right:5%;
+  .container_d{ float:left;width:35%; margin-left:5%;margin-right:8%;
     position: relative;}
     .column{ width:100%;}
     .dddd { margin:0px auto; padding:0px; width:98%; max-width:400px; }
