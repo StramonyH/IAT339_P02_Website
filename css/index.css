@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .home{
@@ -267,6 +267,8 @@
 
 .header{
   display: flex;
+  /* border: 1px solid pink; */
+  align-items: center;
 }
 
 .logo{
@@ -282,7 +284,8 @@
 .cart{
   width:10%;
   text-align: center;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
+  /* border: 1px solid pink; */
 }
 
 .cart img{
@@ -290,6 +293,7 @@
 }
 
 .navigation{
+  /* border: 1px solid pink; */
   width:65%;
 	margin:0.5rem 0;
 	position:sticky;
