@@ -20,11 +20,34 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-left: 2rem;
+  margin-right: 5%;
 }
 
-.product_detail_infobox_amount {
-  margin-top: 1rem;
+.product_detail_infobox_name{
+  margin-bottom: 5%;
+}
+
+.product_detail_infobox_name h3{
+  font-size: 25px;
+  font-style: normal;
+}
+
+.product_specifics_nav{
+  margin-bottom: 10%;
+}
+
+.price_display a{
+  font-size: 30px;
+}
+
+.choose_size{
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.radio_btn{
+  display: flex;
+  margin-right: 15px;
 }
 
 .product_detail_infobox_amount .add-btn {
@@ -33,6 +56,7 @@
 
 .product_detail_infobox_amount .add-btn a{
   margin: 0;
+  width: 100%;
 }
 
 /* Product/service listing */
@@ -45,6 +69,11 @@
 
 }
 
+#product_specifics{
+  background-color: blue;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 .product_list h2{
   text-align: center;
@@ -165,7 +194,7 @@ font-style: normal;
 {
   position: relative;
 }
-.product_detail_infobox{ float:left; width:30%;     margin-left: 0px;}
+.product_detail_infobox{ float:left; width:25%;     margin-left: 0px;}
 .prev, .next
 {
   cursor: pointer;
