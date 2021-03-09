@@ -20,7 +20,34 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin-left: 2rem;
+  margin-right: 5%;
+}
+
+.product_detail_infobox_name{
+  margin-bottom: 5%;
+}
+
+.product_detail_infobox_name h3{
+  font-size: 25px;
+  font-style: normal;
+}
+
+.product_specifics_nav{
+  margin-bottom: 10%;
+}
+
+.price_display a{
+  font-size: 30px;
+}
+
+.choose_size{
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.radio_btn{
+  display: flex;
+  margin-right: 15px;
 }
 
 .product_detail_infobox_amount .add-btn {
@@ -29,6 +56,7 @@
 
 .product_detail_infobox_amount .add-btn a{
   margin: 0;
+  width: 100%;
 }
 
 /* Product/service listing */
@@ -41,6 +69,20 @@
 
 }
 
+#product_specifics{
+  background-color: #B99592;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#product_specifics h3{
+  color: #EDD5D2;
+}
+
+.product_specifics_band{
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
 
 .product_list h2{
   text-align: center;
@@ -73,6 +115,10 @@
   margin-right: 0;
   margin-bottom: 0;
   padding: 1rem;
+}
+
+#product_listing .element{
+  border-top-style: none;
 }
 
 font-family: 'Comfortaa', cursive;
@@ -135,6 +181,7 @@ font-style: normal;
   width: 16.66%;
 }
 
+
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
@@ -144,20 +191,24 @@ font-style: normal;
 .demo:hover {
   opacity: 1;
 }
+
 #product_details h2{ text-align:center; margin-bottom:40px;}
-.carousel{ width:1440px; margin:0 auto;}
+
+.carousel{
+  width:80rem; margin:0 auto;
+}
 
 
 .container_d
 {
   position: relative;
 }
-.product_detail_infobox{ float:left; width:30%;     margin-left: 0px;}
+.product_detail_infobox{ float:left; width:25%;     margin-left: 0px;}
 .prev, .next
 {
   cursor: pointer;
   position: absolute;
-  top: 47%;
+  top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -175,34 +226,45 @@ font-style: normal;
   {
     display: none;
   }
-  .row{ float:left; width:10%;}
+  .row{ float:left; width:7%; margin-left:5%}
 
-  .container_d{ float:left;width:49%; margin-left:5%;margin-right:5%;
+  .container_d{ float:left;width:45%; margin-left:5%;margin-right:8%;
     position: relative;}
     .column{ width:100%;}
-    .dddd { margin:0px auto; padding:0px; width:98%; max-width:400px; }
-    .dddd dl{ overflow:hidden;}
-    .dddd dl dd{ width:100%;  margin:0px; overflow:hidden;}
-    .dddd dl dd .left{ width:50%; float:left;}
-    .dddd dl dd .right{ width:50%; float:right;}
-    .dddd dl dd .left h2{ font-size:18px;}
+
+
+#product_specifics h3{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.specific_info{
+  margin-left: 20%;
+  max-width: 60%;
+}
+
+.specific_info li{
+  margin: 1rem;
+}
+
 
     @media only screen and (max-width:1400px)
     {
       .carousel{ width:100%; margin:0 auto;}
     }
 
-    @media only screen and (max-width:768px)
+    @media only screen and (max-width:850px)
     {
       .row {
         float: left;
         width: 60%;
         overflow:hidden;
+        margin-left: 0;
         }.row .column{ width:33.333333%; float:left;}
         .container_d {width:60%; margin-left:0%;margin-right:5%;  }
         .product_detail_infobox{ float:left; width:30%;     margin-left: 0px;}
       }
-      @media only screen and (max-width:560px){
+      @media only screen and (max-width:600px){
         #products>div.single{
           width: 100%;
         }
