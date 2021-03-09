@@ -203,6 +203,7 @@ font-style: normal;
         float: left;
         width: 60%;
         overflow:hidden;
+        margin-left: 0;
         }.row .column{ width:33.333333%; float:left;}
         .container_d {width:60%; margin-left:0%;margin-right:5%;  }
         .product_detail_infobox{ float:left; width:30%;     margin-left: 0px;}
