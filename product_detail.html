@@ -23,19 +23,40 @@
 </head>
 
 <body>
-    <div class="header">
-        <figure class="logo">
-        <img src = "img/logo.png" alt = "logo"/>
-      </figure>
-        <nav class="study_guide">
-        <a href="index.html">Home</a>
-        <a href="product_list.html">Products</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-        <figure class="cart">
-        <img src = "img/cart.png" alt = "shopping cart"/>
-      </figure>
-    </div>
+
+
+
+    <header>
+          <div class="header">
+            <div class="logo">
+              <img src = "img/logo.png" alt = "logo"/>
+            </div>
+
+            <div class="navigation">
+              <nav>
+                <div class="icon-display">
+                  <div class="phone-menu-icon"><label for="menu"><img src = "img/meun.png" alt = "shopping cart"/></i></label></div>
+                  <div class="phone-menu-icon"><label for="menu"><a href=" "><img src = "img/cart.png" alt = "shopping cart"/></a ></label></div>
+                </div>
+                <input type="checkbox" id="menu">
+                <ul>
+                  <li><a href="index.html">Home</a ></li>
+                  <li><a href="product_list.html">Products</a ></li>
+                  <li><a href="contact.html">Contact</a ></li>
+                  <!-- <li><div class="cart">
+                    < img src = "img/cart.png" alt = "shopping cart"/>
+                  </div></li> -->
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="cart">
+              <a href="checkout_cart.html">< img src = "img/cart.png" alt = "shopping cart"/></a >
+            </div>
+          </div>
+        </header>
+
     <!-- // TEXT ELEMENTS SECTION -->
     <!-- COMBINED ELEMENTS SECTION // -->
     <section id="product_details">
@@ -45,7 +66,6 @@
     <section id="product_details_info">
       <section class="element">
         <div class="carousel"  style=" overflow:hidden;">
-          <!-- <img class="product_detail_img" src="img/Mang_Cake.jpg"> -->
 
           <!-- 以下是图片展示部分html -->
 
@@ -64,17 +84,17 @@
           <div class="container_d">
             <div class="mySlides">
               <!--<div class="numbertext">1 / 6</div>-->
-              <img src="img/Mang_Cake.jpg" style="width:100%">
+              <img src="img/Mang_Cake.jpg">
             </div>
 
             <div class="mySlides">
               <!--<div class="numbertext">2 / 6</div>-->
-              <img src="img/Choc_Cake.jpg" style="width:100%">
+              <img src="img/Choc_Cake.jpg">
             </div>
 
             <div class="mySlides">
               <!--<div class="numbertext">3 / 6</div>-->
-              <img src="img/Stra_Cake.jpg" style="width:100%">
+              <img src="img/Stra_Cake.jpg">
             </div>
 
 
