@@ -185,7 +185,7 @@ font-style: normal;
   .container_d{ float:left;width:35%; margin-left:5%;margin-right:8%;
     position: relative;}
     .column{ width:100%;}
-    .dddd { margin:0px auto; padding:0px; width:98%; max-width:400px; }
+    .dddd { margin:0px auto; padding-top:2rem; width:98%; max-width:400px; }
     .dddd dl{ overflow:hidden;}
     .dddd dl dd{ width:100%;  margin:0px; overflow:hidden;}
     .dddd dl dd .left{ width:50%; float:left;}
