@@ -6,7 +6,7 @@
   border-top-color: black;
 }
 
-#shopping_cart_details h2{
+body h2 {
   text-align: center;
 }
 
@@ -168,10 +168,6 @@
 
 
 /* Product Recommandation */
-.product_list h2{
-  text-align: center;
-}
-
 .product-cake{
   margin-top: 10rem;
 }
