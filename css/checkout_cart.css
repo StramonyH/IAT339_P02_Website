@@ -1,3 +1,40 @@
+/* payment form css */
+#payment_box {
+  background-color: rgb(243, 232, 231);
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  width:43%;
+  margin-bottom: 1rem;
+}
+
+.payment_box {
+  background-color: rgb(243, 232, 231);
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  width:55%;
+  margin-right: 2%;
+  margin-bottom: 1rem;
+}
+
+.payment_page_forms{
+  display: flex;
+}
+
+.contact-info h2,p{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+#checkout h2{
+  text-align: center;
+}
+
+
 /* shopping cart page css */
 .element{
   padding-bottom: 2rem;
