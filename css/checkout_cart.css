@@ -67,6 +67,11 @@
   text-align: center;
 }
 
+.clear_cart{
+  float: right;
+  margin: 2%;
+}
+
 .total_cart{
   text-align: right;
 }
