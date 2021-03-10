@@ -220,7 +220,7 @@ body h2 {
 }
 
 #payment_box {
-  background-color: rgb(243, 232, 231);
+  background-color: #EDD5D2;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 1rem;
@@ -230,7 +230,7 @@ body h2 {
 }
 
 .payment_box {
-  background-color: rgb(243, 232, 231);
+  background-color: #EDD5D2;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 1rem;
@@ -263,12 +263,26 @@ body h2 {
   margin-top: 2rem;
 }
 
+.coupon_box p{
+  color: #865B5B;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
 .coupon_input{
   display: flex;
 }
 
-.coupon_input a{
-  margin: 0;
+.coupon_input .add-btn a{
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+  padding: 0.8rem 1rem;
 }
 
 .total_price{
@@ -311,4 +325,6 @@ body h2 {
 .pay_now_btn .add-btn a{
   width: 100%;
   margin: 0px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
