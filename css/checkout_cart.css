@@ -308,6 +308,10 @@ body h2 {
   justify-content: flex-end;
 }
 
+.total_cart_sum_tag_special p{
+  margin: 0;
+}
+
 .total_cart_sum_num{
   margin-left: auto;
 }
@@ -360,4 +364,36 @@ body h2 {
   margin: 0px;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
+}
+
+@media only screen and (max-width:1000px){
+  .total_price_h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: left;
+  }
+
+  .total_price>h6 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-family: 'Merriweather', serif;
+  }
+
+}
+
+@media only screen and (max-width:780px){
+  .checkout_summary{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .payment_page_forms{
+    width: 100%;
+  }
+
+  .total_cart{
+    width: 100%;
+  }
+
 }
