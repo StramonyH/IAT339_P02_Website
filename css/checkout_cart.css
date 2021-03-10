@@ -214,13 +214,17 @@ body h2 {
 
 
 /* payment form css */
+.checkout_summary{
+  display: flex;
+}
+
 #payment_box {
   background-color: rgb(243, 232, 231);
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 1rem;
-  margin-top: 3rem;
-  width:60%;
+  margin-top: 0.2rem;
+  width:100%;
   margin-bottom: 1rem;
 }
 
@@ -229,8 +233,8 @@ body h2 {
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 1rem;
-  margin-top: 3rem;
-  width:60%;
+  margin-top: 2rem;
+  width:100%;
   margin-right: 2%;
   margin-bottom: 1rem;
 }
@@ -238,12 +242,27 @@ body h2 {
 .payment_page_forms{
   display: flex;
   flex-direction: column;
+  width: 60%;
+  margin-right: 2rem;
 }
 
 .contact-info h2,p{
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
   text-align: center;
+}
+
+/* Summary Section */
+.coupon_box{
+  margin-top: 2rem;
+}
+
+.coupon_input{
+  display: flex;
+}
+
+.coupon_input a{
+  margin: 0;
 }
 
 .total_cart{

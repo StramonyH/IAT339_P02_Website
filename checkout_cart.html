@@ -174,93 +174,95 @@
         <h2>Ready To Checkout?</h2>
         <section class="element">
 
-          <div class="payment_page_forms">
+          <div class="checkout_summary">
+            
+            <div class="payment_page_forms">
 
-            <div class="payment_box">
-              <h3>Your Shipping Info</h3>
-              <hr>
-              <form>
+              <div class="payment_box">
+                <h3>Your Shipping Info</h3>
+                <hr>
+                <form>
 
-                <label for="sname">Name</label>
-                <input type="text" id="sname" name="shipname" placeholder="First Middle Last">
+                  <label for="sname">Name</label>
+                  <input type="text" id="sname" name="shipname" placeholder="First Middle Last">
 
-                <label for="saddress">Address</label>
-                <input type="text" id="saddress" name="shipaddress" placeholder="999 Smith Rd.">
+                  <label for="saddress">Address</label>
+                  <input type="text" id="saddress" name="shipaddress" placeholder="999 Smith Rd.">
 
 
-                <div class="row">
-                  <div class="col_25">
-                    <label for="scity">City</label>
-                    <input type="text" id="scity" name="city" placeholder="Vancouver">
+                  <div class="row">
+                    <div class="col_25">
+                      <label for="scity">City</label>
+                      <input type="text" id="scity" name="city" placeholder="Vancouver">
+                    </div>
+                    <div class="col_25">
+                      <label for="sprovince">Province</label>
+                      <input type="text" id="sprovince" name="province" placeholder="British Columbia">
+                    </div>
+                    <div class="col_25">
+                      <label for="spostal">Postal Code</label>
+                      <input type="text" id="spostal" name="postalcode" placeholder="A1B 2C3">
+                    </div>
                   </div>
-                  <div class="col_25">
-                    <label for="sprovince">Province</label>
-                    <input type="text" id="sprovince" name="province" placeholder="British Columbia">
+                </form>
+              </div>
+
+              <div id="payment_box">
+                <h3>Your Card Info</h3>
+                <hr>
+                <form>
+
+                  <label for="ccnum">Card Number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="xxxx-xxxx-xxxx-xxxx">
+
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="First Middle Last">
+
+                  <div class="row">
+                    <div class="col_50">
+                      <label for="expyear">Expiry Month/Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="MM/YY">
+                    </div>
+                    <div class="col_50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="xxx">
+                    </div>
                   </div>
-                  <div class="col_25">
-                    <label for="spostal">Postal Code</label>
-                    <input type="text" id="spostal" name="postalcode" placeholder="A1B 2C3">
-                  </div>
-                </div>
-              </form>
+                </form>
+              </div>
+
             </div>
 
-            <div id="payment_box">
-              <h3>Your Card Info</h3>
-              <hr>
-              <form>
 
-                <label for="ccnum">Card Number</label>
-                <input type="text" id="ccnum" name="cardnumber" placeholder="xxxx-xxxx-xxxx-xxxx">
+            <div class="total_cart">
 
-                <label for="cname">Name on Card</label>
-                <input type="text" id="cname" name="cardname" placeholder="First Middle Last">
-
-                <div class="row">
-                  <div class="col_50">
-                    <label for="expyear">Expiry Month/Year</label>
-                    <input type="text" id="expyear" name="expyear" placeholder="MM/YY">
-                  </div>
-                  <div class="col_50">
-                    <label for="cvv">CVV</label>
-                    <input type="text" id="cvv" name="cvv" placeholder="xxx">
+              <div class="coupon_box">
+                <a>Having any coupons?</a>
+                <div class="coupon_input">
+                  <input type="text" id="couponcode" name="couponcode" placeholder="Enter your coupon code here...">
+                  <div class="add-btn">
+                    <a class="button-nav" href="">Apply</a>
                   </div>
                 </div>
-              </form>
+              </div>
+
+              <div class="total_price">
+                <div class="empty80"></div>
+                <div class="empty75"></div>
+                <h3 class="total_price_h3">Total Price: </h3>
+              </div>
+
+              <div class="total_price">
+                <div class="empty80"></div>
+                <div class="empty75"></div>
+                <h6 class="total_price_h6">$125.00</h6>
+              </div>
+
+              <div class="add-btn">
+                <a class="button-nav" href="payment.html">Pay Now</a>
+              </div>
+
             </div>
-
-         </div>
-
-
-         <div class="total_cart">
-
-           <div class="coupon_box">
-             <a>Having any coupons?</a>
-             <div class="coupon_input">
-               <input type="text" id="couponcode" name="couponcode" placeholder="Enter your coupon code here...">
-               <div class="add-btn">
-                 <a class="button-nav" href="">Apply</a>
-               </div>
-             </div>
-          </div>
-
-           <div class="total_price">
-             <div class="empty80"></div>
-             <div class="empty75"></div>
-             <h3 class="total_price_h3">Total Price: </h3>
-           </div>
-
-           <div class="total_price">
-             <div class="empty80"></div>
-             <div class="empty75"></div>
-             <h6 class="total_price_h6">$125.00</h6>
-           </div>
-
-           <div class="add-btn">
-             <a class="button-nav" href="payment.html">Go to Checkout</a>
-             <a class="button-nav" href="product_list.html">Add More Items</a>
-           </div>
-
          </div>
         </section>
       </section>
