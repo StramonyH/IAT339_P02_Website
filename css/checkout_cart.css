@@ -6,12 +6,14 @@
   border-top-color: black;
 }
 
+body h2 {
+  text-align: center;
+}
 
 .cart_toptag{
   display: flex;
   margin-top: 3rem;
 }
-
 
 .empty50{
   width: 0;
@@ -43,7 +45,7 @@
 }
 
 .cart_item_pic{
-  width:30%;
+  width:20%;
   text-align: center;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
@@ -52,7 +54,7 @@
 .cart_item_info{
   flex-direction: row;
   text-align: center;
-  width:40%;
+  width:50%;
 }
 
 .cart_item_amount{
@@ -65,47 +67,10 @@
   text-align: center;
 }
 
-.total_cart{
-  text-align: right;
+.clear_cart{
+  float: right;
+  margin: 2% 3%;
 }
-
-.total_price{
-  display: flex;
-}
-
-.empty80{
-  width:80%;
-}
-
-.total_price_h3{
-  width: 20%!important;
-  text-align: center;
-}
-
-.total_price_h6{
-  width: 20%!important;
-  text-align: center!important;
-}
-
-.total_price>h6 {
-  font-size: 2rem;
-  margin-top: 10px;
-}
-
-.cart_buttons{
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 1rem;
-  margin-top: -1rem;
-}
-
-.payment_buttons{
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 1rem;
-  margin-top: 3rem;
-}
-
 
 .row {
   display: flex;
@@ -157,4 +122,192 @@
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
   text-align: center;
+}
+
+
+/* Product Recommandation */
+.product-cake{
+  margin-top: 10rem;
+}
+
+.product-cake-h2{
+  margin-top: 7rem;
+  text-align: center;
+  text-shadow: rgba(134, 91, 91, 0.6) 5px 0 10px;
+}
+
+.product-cake-h2 h2{
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+}
+
+#products{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.single:nth-of-type(1){
+  background-color: #EDD5D2;
+  width: 30%;
+}
+
+.single:nth-of-type(2){
+  background-color: #EDD5D2;
+  width: 30%;
+}
+
+.single:nth-of-type(3){
+  background-color: #EDD5D2;
+  width: 30%;
+}
+
+.single:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: 0.5s;
+}
+
+.product-title h3{
+  text-align: center;
+  margin-top: 3rem;
+  font-style: normal;
+}
+
+.single:nth-of-type(n)>.product_price{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.single:nth-of-type(n)>.product_price span{
+  color:#865B5B;
+  font-weight: bolder;
+}
+
+.single:nth-of-type(n) .product_img{
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.single:nth-of-type(n)>.product_img img{
+  width: 70%;
+  cursor: pointer;
+  /* transition: all 0.6s; */
+}
+
+.single:nth-of-type(n)>.product_img img:hover{
+  /* transform: scale(1.15); */
+}
+
+#product_listing, #product_listing section{
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+#product_listing .element{
+  border-top-style: none;
+}
+
+
+/* payment form css */
+.checkout_summary{
+  display: flex;
+}
+
+#payment_box {
+  background-color: rgb(243, 232, 231);
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+  margin-top: 0.2rem;
+  width:100%;
+  margin-bottom: 1rem;
+}
+
+.payment_box {
+  background-color: rgb(243, 232, 231);
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  width:100%;
+  margin-right: 2%;
+  margin-bottom: 1rem;
+}
+
+.payment_page_forms{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-right: 3rem;
+}
+
+.contact-info h2,p{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+/* Summary Section */
+.total_cart{
+  text-align: right;
+  width: 35%;
+}
+
+.coupon_box{
+  margin-top: 2rem;
+}
+
+.coupon_input{
+  display: flex;
+}
+
+.coupon_input a{
+  margin: 0;
+}
+
+.total_price{
+  display: flex;
+}
+
+.empty80{
+  width:80%;
+}
+
+.total_price_h3{
+  width: 20%!important;
+  text-align: center;
+}
+
+.total_price_h6{
+  width: 20%!important;
+  text-align: center!important;
+}
+
+.total_price>h6 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.cart_buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.payment_buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.pay_now_btn .add-btn a{
+  width: 100%;
+  margin: 0px;
 }
