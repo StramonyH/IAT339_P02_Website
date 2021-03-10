@@ -69,50 +69,8 @@ body h2 {
 
 .clear_cart{
   float: right;
-  margin: 2%;
+  margin: 2% 3%;
 }
-
-.total_cart{
-  text-align: right;
-}
-
-.total_price{
-  display: flex;
-}
-
-.empty80{
-  width:80%;
-}
-
-.total_price_h3{
-  width: 20%!important;
-  text-align: center;
-}
-
-.total_price_h6{
-  width: 20%!important;
-  text-align: center!important;
-}
-
-.total_price>h6 {
-  font-size: 2rem;
-  margin-top: 10px;
-}
-
-.cart_buttons{
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 1rem;
-  margin-top: -1rem;
-}
-
-.payment_buttons{
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 1rem;
-  margin-top: 3rem;
-}
-
 
 .row {
   display: flex;
@@ -246,7 +204,7 @@ body h2 {
   margin-top: 1rem;
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
   padding: 1rem;
 }
 
@@ -262,7 +220,7 @@ body h2 {
   border: 1px solid lightgrey;
   border-radius: 1rem;
   margin-top: 3rem;
-  width:55%;
+  width:60%;
   margin-bottom: 1rem;
 }
 
@@ -272,7 +230,7 @@ body h2 {
   border: 1px solid lightgrey;
   border-radius: 1rem;
   margin-top: 3rem;
-  width:55%;
+  width:60%;
   margin-right: 2%;
   margin-bottom: 1rem;
 }
@@ -286,4 +244,45 @@ body h2 {
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
   text-align: center;
+}
+
+.total_cart{
+  text-align: right;
+}
+
+.total_price{
+  display: flex;
+}
+
+.empty80{
+  width:80%;
+}
+
+.total_price_h3{
+  width: 20%!important;
+  text-align: center;
+}
+
+.total_price_h6{
+  width: 20%!important;
+  text-align: center!important;
+}
+
+.total_price>h6 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.cart_buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.payment_buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
 }
