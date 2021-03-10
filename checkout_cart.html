@@ -228,7 +228,16 @@
                   <label for="cname"><i class="fa fa-user-circle"></i>  Cardholder Name</label>
                   <input type="text" id="cname" name="cardname" placeholder="First Middle Last">
 
-                  <label for="ccnum"><i class="fa fa-credit-card"></i>  Card Number</label>
+                  <div class="label_div">
+                    <label for="ccnum"><i class="fa fa-credit-card"></i>  Card Number</label>
+                    <div class="form_icons">
+                          <i class="fa fa-cc-visa" style="color:#865B5B;"></i>
+                          <i class="fa fa-cc-amex" style="color:#865B5B;"></i>
+                          <i class="fa fa-cc-mastercard" style="color:#865B5B;"></i>
+                          <i class="fa fa-cc-discover" style="color:#865B5B;"></i>
+                    </div>
+                  </div>
+
                   <input type="text" id="ccnum" name="cardnumber" placeholder="xxxx-xxxx-xxxx-xxxx">
 
                   <div class="row">
@@ -264,9 +273,9 @@
 
 
 
-              <div class="total_price">
-                <h3 class="total_price_h3">Summary: </h3>
-              </div>
+
+              <h3 class="total_price_h3">Summary: </h3>
+
 
               <div class="total_cart_sum">
                 <div class="total_cart_sum_tag">
@@ -292,14 +301,16 @@
                   <p>$10.00</p>
                 </div>
               </div>
-              
+
               <div class="hr_margin">
                 <hr>
               </div>
 
               <div class="total_cart_sum">
                 <div class="total_cart_sum_tag">
-                  <p>Total Amount (after tax): </p>
+                  <div class="total_cart_sum_tag_special">
+                    <p>Total Amount (after tax): </p>
+                  </div>
                 </div>
                 <div class="total_price">
                   <h6>$302.40</h6>
@@ -308,7 +319,7 @@
 
               <div class="pay_now_btn">
                 <div class="add-btn">
-                  <a class="button-nav" href="payment.html">Pay Now</a>
+                  <a class="button-nav" href="">Pay Now</a>
                 </div>
               </div>
 

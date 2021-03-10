@@ -247,6 +247,14 @@ body h2 {
   margin-right: 3rem;
 }
 
+.label_div{
+  display: flex;
+}
+
+.form_icons{
+  margin-left: auto;
+}
+
 .contact-info h2{
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
@@ -295,10 +303,17 @@ body h2 {
 }
 
 .total_cart_sum_tag{
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+
+.total_cart_sum_tag_special p{
+  margin: 0;
+}
+
+.total_cart_sum_num{
+  margin-left: auto;
 }
 
 .hr_margin{
@@ -306,15 +321,17 @@ body h2 {
 }
 
 .total_price{
-  display: flex;
+  margin-left: auto;
 }
 
 .empty80{
   width:80%;
 }
 
-.total_price>h3 {
+.total_price_h3 {
   font-size: 2rem;
+  margin-top: 1.5rem;
+  text-align: left;
 }
 
 .total_price>h6 {
@@ -347,4 +364,36 @@ body h2 {
   margin: 0px;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
+}
+
+@media only screen and (max-width:1000px){
+  .total_price_h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: left;
+  }
+
+  .total_price>h6 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-family: 'Merriweather', serif;
+  }
+
+}
+
+@media only screen and (max-width:780px){
+  .checkout_summary{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .payment_page_forms{
+    width: 100%;
+  }
+
+  .total_cart{
+    width: 100%;
+  }
+
 }
