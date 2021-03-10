@@ -1,4 +1,5 @@
 /* shopping cart page css */
+
 .element{
   padding-bottom: 2rem;
   border-top-width: 1px;
@@ -118,7 +119,7 @@ body h2 {
 
 }
 
-.contact-info h2,p{
+.contact-info h2{
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
   text-align: center;
@@ -219,7 +220,7 @@ body h2 {
 }
 
 #payment_box {
-  background-color: rgb(243, 232, 231);
+  background-color: #EDD5D2;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 1rem;
@@ -229,7 +230,7 @@ body h2 {
 }
 
 .payment_box {
-  background-color: rgb(243, 232, 231);
+  background-color: #EDD5D2;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 1rem;
@@ -246,7 +247,7 @@ body h2 {
   margin-right: 3rem;
 }
 
-.contact-info h2,p{
+.contact-info h2{
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
   text-align: center;
@@ -262,12 +263,42 @@ body h2 {
   margin-top: 2rem;
 }
 
+.coupon_box, .total_cart_sum p{
+  color: #865B5B;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  text-align: left!important;
+}
+
 .coupon_input{
   display: flex;
 }
 
-.coupon_input a{
-  margin: 0;
+.coupon_input .add-btn a{
+  margin-left: 10px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+  padding: 0.8rem 1rem;
+}
+
+.total_cart_sum{
+  display: flex;
+}
+
+.total_cart_sum p{
+  margin: 0.5rem 0;
+  vertical-align: bottom;
+}
+
+.total_cart_sum_tag{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .total_price{
@@ -278,19 +309,10 @@ body h2 {
   width:80%;
 }
 
-.total_price_h3{
-  width: 20%!important;
-  text-align: center;
-}
-
-.total_price_h6{
-  width: 20%!important;
-  text-align: center!important;
-}
-
 .total_price>h6 {
   font-size: 2rem;
-  margin-top: 10px;
+  margin-top: 3rem;
+  margin-bottom: 0;
 }
 
 .cart_buttons{
@@ -307,7 +329,13 @@ body h2 {
   margin-top: 3rem;
 }
 
+.pay_now_btn{
+  margin-top: 1rem;
+}
+
 .pay_now_btn .add-btn a{
   width: 100%;
   margin: 0px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
