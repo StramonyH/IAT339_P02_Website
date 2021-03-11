@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>H.T Cake</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/product_detail.css" rel="stylesheet">
+    <!-- <link href="css/normalize.css" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Sriracha&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Merriweather&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <header>
+          <div class="header">
+            <div class="logo">
+              <img src = "img/logo.png" alt = "logo"/>
+            </div>
+
+            <div class="navigation">
+              <nav>
+                <div class="icon-display">
+                  <div class="phone-menu-icon"><label for="menu"><img src = "img/meun.png" alt = "shopping cart"/></i></label></div>
+                  <div class="phone-menu-icon"><label for="menu"><a href=" "><img src = "img/cart.png" alt = "shopping cart"/></a ></label></div>
+                </div>
+                <input type="checkbox" id="menu">
+                <ul>
+                  <li><a href="index.html">Home</a ></li>
+                  <li><a href="product_list.html">Products</a ></li>
+                  <li><a href="contact.html">Contact</a ></li>
+                  <!-- <li><div class="cart">
+                    < img src = "img/cart.png" alt = "shopping cart"/>
+                  </div></li> -->
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="cart">
+              <a href="checkout_cart.html"><img src = "img/cart.png" alt = "shopping cart"/></a >
+            </div>
+          </div>
+        </header>
+
+    <!-- // TEXT ELEMENTS SECTION -->
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="product_details">
+
+    <h2>Product Overview</h2>
+
+    <section id="product_details_info">
+      <section class="element">
+        <div class="carousel"  style=" overflow:hidden;">
+
+          <!-- 以下是图片展示部分html -->
+
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="img/soy.png" style="width:100%" onclick="currentSlide(1)" alt=" ">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/soy1.jpg" style="width:100%" onclick="currentSlide(2)" alt=" ">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="img/soy2.jpg" style="width:100%" onclick="currentSlide(3)" alt=" ">
+            </div>
+          </div>
+
+          <div class="container_d">
+            <div class="mySlides">
+              <!--<div class="numbertext">1 / 6</div>-->
+              <img src="img/soy.png">
+            </div>
+
+            <div class="mySlides">
+              <!--<div class="numbertext">2 / 6</div>-->
+              <img src="img/soy1.jpg">
+            </div>
+
+            <div class="mySlides">
+              <!--<div class="numbertext">3 / 6</div>-->
+              <img src="img/soy2.jpg">
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+          </div>
+
+          <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+          }
+        </script>
+
+        <!-- 以上是图片展示部分html -->
+
+        <div class="product_detail_infobox">
+          <div class="product_detail_infobox_name">
+            <h3>Rose Swan Velvet</h3>
+
+          </div>
+          <div class="product_specifics_nav">
+            <div class="price_display">
+              <a>CAD $10.00</a>
+            </div>
+            <div class="btn_display">
+              <a href="#product_specifics">See Product Specifics</a>
+            </div>
+          </div>
+          <div class="choose_size">
+            <div class="radio_btn">
+              <input type="radio" id="6inch" name="cake_size" value="6inch">
+              <label for="cake_size">Extra Sugar</label>
+            </div>
+            <div class="radio_btn">
+              <input type="radio" id="9inch" name="cake_size" value="9inch">
+              <label for="cake_size">Remove Roseleaf</label>
+            </div>
+
+          </div>
+          <div class="product_detail_infobox_amount">
+            <div class="add-btn">
+              <a class="button-nav" href="checkout_cart.html">Add to Cart</a>
+            </div>
+            <div class="add-btn">
+              <a class="button-nav" href="checkout_cart.html">Buy Now</a>
+            </div>
+          </div>
+          <div class="product_detail_infobox_desc">
+            <h4>Description</h4>
+            <p>"Rose Swan Velvet" is one of our most popular healthy drinks, modulated with Chinese soy milk powder and
+              rocky sugar. With the add of roseleaf, the taste is not only pure and honest, but also fresh and unique. </p>
+            </div>
+
+          </div>
+
+          <div style=" clear:both;"></div>
+
+
+        </div>
+        </section>
+      </section>
+
+
+    <section id="product_specifics">
+
+
+      <h2> Product Specifics </h2>
+
+        <div class="product_specifics_texts">
+          <ul>
+            <li><h4>Product Name:  Rose Swan Velvet</h4>
+            <li><h4>Size Options:  12oz </h4>
+            <li><h4>Available for Customization:  Yes</h4>
+            <li><h4>Ingredients:  Chinese Soy Milk Powder, Chinese Rocky Sugar, Fresh Roseleaf, Rosebud Extract</h4>
+          </ul>
+        </div>
+
+    </section>
+
+
+    <section id="product_listing">
+      <section class="element">
+
+        <div class=product_list>
+          <h2> Other Products You May Like... </h2>
+        </div>
+
+        <div id="products">
+          <div class="single">
+            <div class="product_img">
+              <a href="product_detail.html"><img src="img/litchi.png" alt="this is a strawberry cake picture"></a>
+            </div>
+            <div class="product-title">
+              <h3>Lychee Corcés</h3>
+            </div>
+            <div class="product_price">
+              <span>$8</span>
+            </div>
+                  <div class="add-btn">
+                    <a href="#cart">Add to Cart</a>
+                  </div>
+          </div>
+
+          <div class="single">
+            <div class="product_img">
+              <a href="product_detail.html"><img src="img/rose.png" alt="this is a mango cake picture"></a>
+            </div>
+            <div class="product-title">
+              <h3>Red Allure</h3>
+            </div>
+            <div class="product_price">
+              <span>$7</span>
+            </div>
+                  <div class="add-btn">
+                    <a href="#cart">Add to Cart</a>
+                  </div>
+          </div>
+
+          <div class="single">
+            <div class="product_img">
+              <a href="product_detail.html"><img src="img/soy.png" alt="this is a toy car cake picture"></a>
+            </div>
+            <div class="product-title">
+              <h3>Rose Swan Velvet</h3>
+            </div>
+            <div class="product_price">
+              <span>$10</span>
+            </div>
+                  <div class="add-btn">
+                    <a href="#cart">Add to Cart</a>
+                  </div>
+          </div>
+        </div>
+      </section>
+
+    </section>
+  </section>
+
+  <div class="footer">
+
+    <div class="footer-left">
+      <div class="footer-left-top">
+        <div class="footer-left-top-icon">
+          <img src = "img/facebook.png" alt = "facebook icon"/>
+        </div>
+
+        <div class="footer-left-top-icon">
+          <img src = "img/ins.png" alt = "ins icon"/>
+        </div>
+
+        <div class="footer-left-top-icon">
+          <img src = "img/twitter.png" alt = "twitter icon"/>
+        </div>
+
+        <div class="footer-left-top-icon">
+          <img src = "img/youtube.png" alt = "youtube icon"/>
+        </div>
+      </div>
+      <div class="footer-left-bottom">
+        <div class="footer-left-bottom-content">
+          <div class="footer-left-bottom-icon">
+            <img src = "img/address2.png" alt = "address icon"/>
+          </div>
+          <div class="footer-left-bottom-text">
+            <p>8888 University Dr</p >
+            </div>
+          </div>
+
+          <div class="footer-left-bottom-content">
+            <div class="footer-left-bottom-icon">
+              <img src = "img/phone2.png" alt = "phone icon"/>
+            </div>
+            <div class="footer-left-bottom-text">
+              <p>+17787823111</p >
+              </div>
+            </div>
+
+            <div class="footer-left-bottom-content">
+              <div class="footer-left-bottom-icon">
+                <img src = "img/mail2.png" alt = "mail icon"/>
+              </div>
+              <div class="footer-left-bottom-text">
+                <p>sfu@gmail.com</p >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-center">
+            <p>Support</p >
+              <div class="support-content">
+                <p>Service</p >
+                  <p>Contact<p>
+                    <p>Customer</p >
+                      <p>Q&A</p >
+                      </div>
+                    </div>
+
+                    <div class="footer-right">
+                      <p>Export</p >
+                        <div class="export-content">
+                          <a href=" "><p>Style guide</p ></a >
+                            <a href="https://github.com/StramonyH/IAT339_P02_Website"><p>Github</p ></a >
+                              <a href="style_guide.html#citations"><p>Reference</p ></a >
+                              </div>
+                            </div>
+        </div>
+
+    <!-- // COMBINED ELEMENTS SECTION -->
+</body>
+</html>
