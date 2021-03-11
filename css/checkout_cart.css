@@ -396,4 +396,16 @@ body h2 {
     width: 100%;
   }
 
+  #cart h4{
+    font-size: 12px;
+  }
+
+  #cart h5{
+    font-size: 11px;
+  }
+
+  .clear_cart a{
+    font-size: 12px;
+  }
+
 }
