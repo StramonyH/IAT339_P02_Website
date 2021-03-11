@@ -1,7 +1,7 @@
-/* * {
+* {
   box-sizing: border-box;
   border: 1px solid pink;
-} */
+}
 
 /* body{
   background-color: #EDD5D2;
@@ -157,7 +157,7 @@ color: #865B5B;
 .company-news-events p{
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
-  padding: 2%;
+  line-height: 35px;
 
   /* font-size: 18px; */
 }
