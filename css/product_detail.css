@@ -392,6 +392,10 @@ font-style: normal;
         margin-bottom: 0;
       }
 
+      label{
+        font-size: 12px;
+      }
+
       .btn_display a{
         font-size: 10px;
       }
@@ -422,6 +426,10 @@ font-style: normal;
       .row .column{ width:33.333333%; float:left;}
       .container_d {width:60%; margin-left:0%;margin-right:5%;  }
       .product_detail_infobox{ float:left; width:30%; margin-top: -7rem;  margin-left: 0px;}
+
+      label{
+        font-size: 10px;
+      }
 
       .product_specifics_nav {
         margin-bottom: 5%;
