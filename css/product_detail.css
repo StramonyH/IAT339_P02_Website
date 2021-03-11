@@ -427,6 +427,11 @@ font-style: normal;
         margin-bottom: 5%;
       }
 
+      .product_specifics_texts {
+        margin-left: 10%;
+        max-width: 80%;
+      }
+
       }
       @media only screen and (max-width:650px){
         #products>div.single{
@@ -444,4 +449,13 @@ font-style: normal;
         .container_d {width:100%; margin-left:0%;margin-right:0%;  float:none;}
 
         .product_detail_infobox{ float:none; width:100%; margin-top: 0;    margin-left: 0px;}
+
+        .mySlides img{
+          transition: none;
+          width:100%;
+        }
+
+        .mySlides img:hover{
+          transform: none;
+        }
       }
