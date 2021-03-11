@@ -7,13 +7,113 @@
   background-color: #EDD5D2;
 } */
 
-.home{
-  padding-top: 2rem;
-  text-align: center;
+/* home website */
+html, body {
+margin: 0px;
+padding: 0px;
 }
 
-.home img{
-  width:100%
+.carousel {
+position: relative;
+box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+margin-top: 7rem;
+}
+
+.carousel-inner {
+position: relative;
+overflow: hidden;
+width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+position: static;
+opacity: 100;
+}
+
+.carousel-item {
+position: absolute;
+opacity: 0;
+-webkit-transition: opacity 0.6s ease-out;
+transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+display: block;
+height: auto;
+max-width: 100%;
+}
+
+.carousel-control {
+background: rgba(185, 149, 146, 0.28);
+border-radius: 50%;
+color: #fff;
+cursor: pointer;
+display: none;
+font-size: 40px;
+height: 40px;
+line-height: 35px;
+position: absolute;
+top: 50%;
+-webkit-transform: translate(0, -50%);
+cursor: pointer;
+-ms-transform: translate(0, -50%);
+transform: translate(0, -50%);
+text-align: center;
+width: 40px;
+z-index: 10;
+}
+
+.carousel-control.prev {
+left: 2%;
+}
+
+.carousel-control.next {
+right: 2%;
+}
+
+.carousel-control:hover {
+background: rgba(185, 149, 146, 0.8);
+color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+display: block;
+}
+
+.carousel-indicators {
+list-style: none;
+margin: 0;
+padding: 0;
+position: absolute;
+bottom: 2%;
+left: 0;
+right: 0;
+text-align: center;
+z-index: 10;
+}
+
+.carousel-indicators li {
+display: inline-block;
+margin: 0 5px;
+}
+
+.carousel-bullet {
+color: #fff;
+cursor: pointer;
+display: block;
+font-size: 35px;
+}
+
+.carousel-bullet:hover {
+color: #B99592;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+color: #865B5B;
 }
 
 /* news website */
@@ -146,13 +246,15 @@
 /* about us website */
 .about-us{
   /* background-color: #EDD5D2; */
-  border-width: 3px;
-  border-color: #865B5B;
-
-  border-style: solid;
+  /* border-width: 3px;
+  border-color: #865B5B; */
+  background-color: #EDD5D2;
+  /* border-style: solid; */
   margin-top: 8rem;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  /* margin-left: 11%;
+  margin-right: 11%; */
 
 }
 
@@ -163,7 +265,7 @@
 
 .about-info-logo{
   padding: 3rem;
-  width: 40%;
+  width: 35%;
   text-align: center;
 }
 
@@ -172,7 +274,7 @@
 }
 
 .about-info-text{
-  width: 60%;
+  width: 65%;
 }
 
 .about-info-text h2{
@@ -184,6 +286,8 @@
 .about-info-text p{
   margin: auto;
   width: 80%;
+  /* word-spacing: 2px; */
+  line-height: 35px;
   text-align: center;
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
@@ -288,126 +392,4 @@
 .footer-right p{
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
-}
-
-
-html, body {
-margin: 0px;
-padding: 0px;
-}
-
-.carousel {
-position: relative;
-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-margin-top: 7rem;;
-}
-
-.carousel-inner {
-position: relative;
-overflow: hidden;
-width: 100%;
-}
-
-.carousel-open:checked + .carousel-item {
-position: static;
-opacity: 100;
-}
-
-.carousel-item {
-position: absolute;
-opacity: 0;
--webkit-transition: opacity 0.6s ease-out;
-transition: opacity 0.6s ease-out;
-}
-
-.carousel-item img {
-display: block;
-height: auto;
-max-width: 100%;
-}
-
-.carousel-control {
-background: rgba(0, 0, 0, 0.28);
-border-radius: 50%;
-color: #fff;
-cursor: pointer;
-display: none;
-font-size: 40px;
-height: 40px;
-line-height: 35px;
-position: absolute;
-top: 50%;
--webkit-transform: translate(0, -50%);
-cursor: pointer;
--ms-transform: translate(0, -50%);
-transform: translate(0, -50%);
-text-align: center;
-width: 40px;
-z-index: 10;
-}
-
-.carousel-control.prev {
-left: 2%;
-}
-
-.carousel-control.next {
-right: 2%;
-}
-
-.carousel-control:hover {
-background: rgba(0, 0, 0, 0.8);
-color: #aaaaaa;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
-display: block;
-}
-
-.carousel-indicators {
-list-style: none;
-margin: 0;
-padding: 0;
-position: absolute;
-bottom: 2%;
-left: 0;
-right: 0;
-text-align: center;
-z-index: 10;
-}
-
-.carousel-indicators li {
-display: inline-block;
-margin: 0 5px;
-}
-
-.carousel-bullet {
-color: #fff;
-cursor: pointer;
-display: block;
-font-size: 35px;
-}
-
-.carousel-bullet:hover {
-color: #aaaaaa;
-}
-
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-color: #428bca;
-}
-
-#title {
-width: 100%;
-position: absolute;
-padding: 0px;
-margin: 0px auto;
-text-align: center;
-font-size: 27px;
-color: rgba(255, 255, 255, 1);
-font-family: 'Open Sans', sans-serif;
-z-index: 9999;
-text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
