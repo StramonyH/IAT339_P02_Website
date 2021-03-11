@@ -291,7 +291,7 @@ font-style: normal;
 }
 
 .mySlides img:hover{
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 /* Add a transparency effect for thumnbail images */
