@@ -25,6 +25,7 @@ body h2 {
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
+  align-items: center;
 }
 
 .empty50{
@@ -431,6 +432,30 @@ body h2 {
 
         #cart2{
           display: contents;
+        }
+
+        .cart_item_pic{
+          width: 60%;
+        }
+
+        .cart2_item_layout{
+          width: 40%;
+        }
+
+        .cart_toptag{
+          display: none;
+        }
+
+        .cart_item_info{
+          width: 100%;
+        }
+
+        .cart_item_amount{
+          width: 100%;
+        }
+
+        .price_sum{
+          width: 100%;
         }
       }
 
