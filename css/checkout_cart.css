@@ -73,6 +73,9 @@ body h2 {
 .cart_item_amount{
   width:10%;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .price_sum{
@@ -103,6 +106,18 @@ body h2 {
 .col_25,
 .col_50{
   padding: 0 1rem;
+}
+
+.amount_btn {
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid #865B5B;
+  color: #865B5B;
+  margin: 0 0.5rem;
+  width: 2rem;
+  height: auto;
 }
 
 #payment_box {
