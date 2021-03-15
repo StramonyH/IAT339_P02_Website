@@ -16,6 +16,17 @@ body h2 {
   margin-top: 3rem;
 }
 
+#cart2{
+  display: none;
+}
+
+.cart2_item_layout{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
 .empty50{
   width: 0;
 }
@@ -412,6 +423,14 @@ body h2 {
         .add-btn a{
           padding: 12px 20px;
           font-size: 14px;
+        }
+
+        #cart{
+          display: none;
+        }
+
+        #cart2{
+          display: contents;
         }
       }
 
