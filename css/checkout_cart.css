@@ -120,8 +120,9 @@ body h2 {
   height: auto;
 }
 
-.amount_btn hover{
+.amount_btn button: hover{
   color: #B99592;
+  background-color: #B99592;
 }
 
 #payment_box {
