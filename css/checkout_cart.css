@@ -118,11 +118,12 @@ body h2 {
   margin: 0 0.5rem;
   width: 2rem;
   height: auto;
+  cursor: pointer;
 }
 
 .amount_btn button: hover{
-  color: #B99592;
-  background-color: #B99592;
+  color: black;
+  background-color: black;
 }
 
 #payment_box {
