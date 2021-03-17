@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
 
@@ -33,7 +33,7 @@
         <div class="navigation">
           <nav>
             <div class="icon-display">
-              <div class="phone-menu-icon"><label for="menu"><img src = "img/meun.png" alt = "shopping cart"/></i></label></div>
+              <div class="phone-menu-icon"><label for="menu"><img src = "img/meun.png" alt = "shopping cart"/></label></div>
               <div class="nav-logo">
                 <img src = "img/logo.png" alt = "logo"/>
               </div>
@@ -90,7 +90,7 @@
                 </div>
               </div>
               <div class="cart_item_amount">
-                 <button id="minus" onclick="minusOne()">-</button> <span id="amount1">1</span> <button id="add" onclick="addOne()">+</button>
+                 <button id="minus_item1" onclick="minusOne()">-</button> <span id="amount1">1</span> <button id="add_item1" onclick="addOne()">+</button>
               </div>
               <!-- <button id="minus" >-</button> <span id="amount">0</span> <button id="add" >+</button> -->
               <div class="price_sum">
@@ -113,7 +113,7 @@
                 </div>
               </div>
               <div class="cart_item_amount">
-                <button id="minus" onclick="minusTwo()">-</button> <span id="amount2">2</span> <button id="add" onclick="addTwo()">+</button>
+                <button id="minus_item2" onclick="minusTwo()">-</button> <span id="amount2">2</span> <button id="add_item2" onclick="addTwo()">+</button>
               </div>
               <div class="price_sum">
                 <span>$</span><span id="total2">140</span>
@@ -150,11 +150,11 @@
                 </div>
               </div>
               <div class="cart_item_amount">
-                 <button id="minus" onclick="minusOne()">-</button> <span id="amount1">1</span> <button id="add" onclick="addOne()">+</button>
+                 <button id="minus_item1_mob" onclick="minusOne()">-</button> <span id="amount1_mob">1</span> <button id="add_item1_mob" onclick="addOne()">+</button>
               </div>
               <!-- <button id="minus" >-</button> <span id="amount">0</span> <button id="add" >+</button> -->
               <div class="price_sum">
-                <span>$</span><span id="total1">80</span>
+                <span>$</span><span id="total1_mob">80</span>
               </div>
             </div>
           </div>
@@ -176,10 +176,10 @@
                 </div>
               </div>
               <div class="cart_item_amount">
-                <button id="minus" onclick="minusTwo()">-</button> <span id="amount2">2</span> <button id="add" onclick="addTwo()">+</button>
+                <button id="minus_item2_mob" onclick="minusTwo()">-</button> <span id="amount2_mob">2</span> <button id="add_item2_mob" onclick="addTwo()">+</button>
               </div>
               <div class="price_sum">
-                <span>$</span><span id="total2">140</span>
+                <span>$</span><span id="total2_mob">140</span>
               </div>
             </div>
           </div>
@@ -275,7 +275,7 @@
 
                   <div class="row">
                     <div class="col_25">
-                      <label for="scity"><i class="fa fa-institution"></i></i>  City</label>
+                      <label for="scity"><i class="fa fa-institution"></i>  City</label>
                       <input type="text" id="scity" name="city" placeholder="Vancouver">
                     </div>
                     <div class="col_25">
