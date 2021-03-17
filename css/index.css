@@ -304,7 +304,7 @@ color: #865B5B;
   width: 80%;
   /* word-spacing: 2px; */
   line-height: 35px;
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Comfortaa', cursive;
   font-family: 'Merriweather', serif;
 }
@@ -324,6 +324,9 @@ color: #865B5B;
 }
 
 @media only screen and (max-width:650px){
+  .about-info{
+    margin-top: -3rem;
+  }
   .about-info-logo img{
     width: 150px;
   }
@@ -399,6 +402,7 @@ color: #865B5B;
 .service-text p{
   color: #B99592;
   font-weight: bolder;
+  text-align: left;
 }
 
 @media only screen and (max-width:820px){
@@ -418,9 +422,13 @@ color: #865B5B;
   }
 }
 
-@media only screen and (max-width:340px){
+@media only screen and (max-width:380px){
   .service-cake,.service-drink{
     display: flex;
+  }
+
+  .service-drink>.service-text{
+    margin-top: 1.5rem;
   }
 
   .service-icon{
