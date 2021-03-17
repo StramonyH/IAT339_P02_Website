@@ -80,7 +80,8 @@ body h2 {
 
 .price_sum{
   width:20%;
-  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
 .clear_cart{
@@ -108,7 +109,7 @@ body h2 {
   padding: 0 1rem;
 }
 
-.amount_btn {
+.cart_item_amount button{
   border: 0;
   padding: 0.5rem;
   border-radius: 5px;
@@ -121,9 +122,32 @@ body h2 {
   cursor: pointer;
 }
 
-.amount_btn button:hover{
-  color: black;
-  background-color: black;
+
+.cart_item_amount button:hover{
+  color: #865B5B;
+  background-color: #B99592;
+}
+
+.cart_item_amount span{
+  color:black;
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.price_sum span{
+  color:black;
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 #payment_box {
@@ -532,6 +556,7 @@ body h2 {
   .clear_cart a{
     font-size: 12px;
   }
+
 
 }
 
