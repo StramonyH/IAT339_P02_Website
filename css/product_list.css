@@ -27,6 +27,13 @@
   margin-top: 4rem;
 }
 
+#products{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
 .single:nth-of-type(1){
   background-color: #EDD5D2;
   width: 30%;
