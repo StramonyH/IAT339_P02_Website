@@ -90,12 +90,11 @@
                 </div>
               </div>
               <div class="cart_item_amount">
-                <button class="amount_btn"> - </button>
-                <h5> 1 </h5>
-                <button class="amount_btn"> + </button>
+                 <button id="minus" onclick="minusOne()">-</button> <span id="amount1">1</span> <button id="add" onclick="addOne()">+</button>
               </div>
+              <!-- <button id="minus" >-</button> <span id="amount">0</span> <button id="add" >+</button> -->
               <div class="price_sum">
-                <h5>$ 80.00</h5>
+                <span >$</span><span id="total1">80</span>
               </div>
             </div>
 
@@ -114,12 +113,10 @@
                 </div>
               </div>
               <div class="cart_item_amount">
-                <button class="amount_btn"> - </button>
-                <h5> 2 </h5>
-                <button class="amount_btn"> + </button>
+                <button id="minus" onclick="minusTwo()">-</button> <span id="amount2">2</span> <button id="add" onclick="addTwo()">+</button>
               </div>
               <div class="price_sum">
-                <h5>$ 140.00</h5>
+                <span >$</span><span id="total2">140</span>
               </div>
             </div>
 
@@ -471,5 +468,6 @@
                                   </div>
                                 </div>
             </div>
+          <script src="scripts/checkout_cart.js"></script>
       </body>
 </html>
