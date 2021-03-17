@@ -121,7 +121,7 @@ body h2 {
   cursor: pointer;
 }
 
-.amount_btn button: hover{
+.amount_btn button:hover{
   color: black;
   background-color: black;
 }
