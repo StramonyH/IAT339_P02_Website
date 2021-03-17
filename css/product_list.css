@@ -20,7 +20,7 @@
   font-family: 'Merriweather', serif;
 }
 
-#products{
+#all-products{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
