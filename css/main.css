@@ -107,7 +107,7 @@ span {
 }
 
 .navigation{
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   width:55%;
 	margin:0.5rem 0;
 	position:sticky;
@@ -124,19 +124,19 @@ span {
 .navigation ul{
   margin: 0;
   padding: 0;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   display:flex;
 	justify-content: space-between;
 	list-style-type:none;
 }
 
 .navigation li{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   /* align-content: center; */
 }
 
 .navigation ul a{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* float: left; */
   display: block;
   color: #865B5B;
