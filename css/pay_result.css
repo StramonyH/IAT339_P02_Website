@@ -1,0 +1,13 @@
+.thank_you{
+  align-items: center;
+}
+
+.main_slog{
+  display: flex;
+  justify-content: center;
+}
+
+.checkmark{
+  width: 7%;
+  margin-right: 5%;
+}
