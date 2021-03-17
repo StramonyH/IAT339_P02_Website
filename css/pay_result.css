@@ -18,8 +18,8 @@
 }
 
 .checkmark{
-  width: 10%;
-  height: 10%;
+  width: 12%;
+  height: 12%;
 }
 
 .add-btn{
@@ -215,6 +215,11 @@
 
         section{
           margin-bottom: 3rem;
+        }
+
+        .checkmark{
+          width: 20%;
+          height: 20%;
         }
       }
 
