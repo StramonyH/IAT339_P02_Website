@@ -492,6 +492,7 @@ body h2 {
         }
 
         .price_sum{
+          margin-top: 1rem;
           width: 100%;
         }
       }
