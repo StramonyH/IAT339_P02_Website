@@ -458,9 +458,6 @@
 }
 
 @media only screen and (max-width:650px){
-  #products>div.single{
-    width: 100%;
-  }
 
   div.single>div.product_img img{
     width: 70%;
