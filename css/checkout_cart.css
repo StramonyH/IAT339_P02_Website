@@ -415,97 +415,103 @@ body h2 {
 }
 
 /* media only for the product list section */
-      @media only screen and (max-width:790px){
+@media only screen and (max-width:790px){
 
-        .single:nth-of-type(n) .product_img{
-          padding-top:2rem;
-          text-align: center;
-        }
+  .single:nth-of-type(n) .product_img{
+    padding-top:2rem;
+    text-align: center;
+  }
 
-        .product-cake-h2 h2{
-          font-size: 25px;
-        }
+  .product-cake-h2 h2{
+    font-size: 25px;
+  }
 
-        .product-title h3{
-          font-size: 17px;
-        }
+  .product-title h3{
+    font-size: 17px;
+  }
 
-        .add-btn a{
-          padding: 8px 16px;
-          font-size: 12px;
-        }
-      }
+  .add-btn a{
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
 
-      @media only screen and (max-width:650px){
-        .single:nth-of-type(n){
-          width: 80%;
-        }
+@media only screen and (max-width:650px){
 
-        .single:nth-of-type(2){
-          margin-top: 3rem;
-        }
+  section{
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-        .single:nth-of-type(3){
-          margin-top: 3rem;
-        }
+  .single:nth-of-type(n){
+    width: 80%;
+  }
 
-        .product-cake-h2 h2{
-          font-size: 25px;
-        }
+  .single:nth-of-type(2){
+    margin-top: 3rem;
+  }
 
-        .product-title h3{
-          font-size: 17px;
-        }
+  .single:nth-of-type(3){
+    margin-top: 3rem;
+  }
 
-        .add-btn a{
-          padding: 12px 20px;
-          font-size: 14px;
-        }
+  .product-cake-h2 h2{
+    font-size: 25px;
+  }
 
-        #cart{
-          display: none;
-        }
+  .product-title h3{
+    font-size: 17px;
+  }
 
-        #cart2{
-          display: contents;
-        }
+  .add-btn a{
+    padding: 12px 20px;
+    font-size: 14px;
+  }
 
-        .cart_item_pic{
-          width: 60%;
-        }
+  #cart{
+    display: none;
+  }
 
-        .cart2_item_layout{
-          width: 40%;
-        }
+  #cart2{
+    display: contents;
+  }
 
-        .cart_toptag{
-          display: none;
-        }
+  .cart_item_pic{
+    width: 60%;
+  }
 
-        .cart_item_info{
-          width: 100%;
-        }
+  .cart2_item_layout{
+    width: 40%;
+  }
 
-        .cart_item_amount{
-          width: 100%;
-        }
+  .cart_toptag{
+    display: none;
+  }
 
-        .price_sum{
-          margin-top: 1rem;
-          width: 100%;
-        }
-      }
+  .cart_item_info{
+    width: 100%;
+  }
 
-      @media only screen and (max-width:500px){
-        .single:nth-of-type(n) .product_img{
-          padding-top:1em;
-          text-align: center;
-        }
+  .cart_item_amount{
+    width: 100%;
+  }
 
-        .product-cake-h2 h2{
-          font-size: 22px;
-        }
-      }
+  .price_sum{
+    margin-top: 1rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .single:nth-of-type(n) .product_img{
+    padding-top:1em;
+    text-align: center;
+  }
+
+  .product-cake-h2 h2{
+    font-size: 22px;
+  }
+}
 
 @media only screen and (max-width:1000px){
   .total_price_h3 {
