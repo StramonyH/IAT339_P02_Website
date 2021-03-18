@@ -1,0 +1,21 @@
+/* * {
+  box-sizing: border-box;
+  border: 1px solid pink;
+} */
+section{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.citations h2{
+  text-align: center;
+}
+
+.citations h3{
+  margin-top: 2rem;
+}
+
+ul li{
+  margin-top: 1rem;
+  color: #865B5B;
+}
