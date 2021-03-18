@@ -156,7 +156,6 @@
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
-  padding: 1rem;
 }
 
 #product_listing .element{
@@ -286,8 +285,12 @@
   width:100%;
 }
 
-.mySlides img:hover{
+.mySlides:hover img{
   transform: scale(1.2);
+}
+
+.mySlides{
+  overflow: hidden;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -368,159 +371,188 @@
 
 
 
-    @media only screen and (max-width:1400px)
-    {
-      .carousel{ width:100%; margin:0 auto;}
-    }
+@media only screen and (max-width:1400px){
+  .carousel{
+    width:100%;
+    margin:0
+    auto;
+  }
+}
 
-    @media only screen and (max-width:1150px)
-    {
-      .product_detail_infobox_name h3{
-        font-size: 1.2rem;
-        font-style: normal;
-      }
+@media only screen and (max-width:1150px){
+  .product_detail_infobox_name h3{
+    font-size: 1.2rem;
+    font-style: normal;
+  }
 
-      .price_display a{
-        font-size: 1.5rem;
-      }
+  .price_display a{
+    font-size: 1.5rem;
+  }
 
-      .product_detail_infobox_name {
-        margin-bottom: 0;
-      }
+  .product_detail_infobox_name {
+    margin-bottom: 0;
+  }
 
-      label{
-        font-size: 12px;
-      }
+  label{
+    font-size: 12px;
+  }
 
-      .btn_display a{
-        font-size: 10px;
-      }
+  .btn_display a{
+    font-size: 10px;
+  }
 
-      .product_specifics_nav {
-        margin-bottom: 10%;
-      }
+  .product_specifics_nav {
+    margin-bottom: 10%;
+  }
 
-      .product_detail_infobox_amount .add-btn a {
-        margin: 0;
-        padding: 9px;
-        width: 100%;
-      }
+  .product_detail_infobox_amount .add-btn a {
+    margin: 0;
+    padding: 9px;
+    width: 100%;
+  }
 
-      .product_detail_infobox_desc h4{
-        margin-top: 1rem;
-      }
-    }
+  .product_detail_infobox_desc h4{
+    margin-top: 1rem;
+  }
+}
 
-    @media only screen and (max-width:850px)
-    {
-      .row {
-        float: left;
-        width: 60%;
-        overflow:hidden;
-        margin-left: 0;
-        }
-      .row .column{ width:33.333333%; float:left;}
-      .container_d {width:60%; margin-left:0%;margin-right:5%;  }
-      .product_detail_infobox{ float:left; width:30%; margin-top: -7rem;  margin-left: 0px;}
+@media only screen and (max-width:850px){
+  .row {
+    float: left;
+    width: 60%;
+    overflow:hidden;
+    margin-left: 0;
+  }
 
-      label{
-        font-size: 10px;
-      }
+  .row .column{
+    width:33.333333%;
+    float:left;
+  }
 
-      .product_specifics_nav {
-        margin-bottom: 5%;
-      }
+  .container_d {
+    width:60%;
+    margin-left:0%;
+    margin-right:5%;
+  }
 
-      .product_specifics_texts {
-        margin-left: 10%;
-        max-width: 80%;
-      }
+  .product_detail_infobox{
+    float:left;
+    width:30%;
+    margin-top: -7rem;
+    margin-left: 0px;
+  }
 
-      }
-      @media only screen and (max-width:650px){
-        #products>div.single{
-          width: 100%;
-        }
+  label{
+    font-size: 10px;
+  }
 
-        div.single>div.product_img img{
-          width: 70%;
-        }
-        .row {
-          float: left;
-          width: 100%;
-          overflow:hidden;float:none;
-        }
-        .container_d {width:100%; margin-left:0%;margin-right:0%;  float:none;}
+  .product_specifics_nav {
+    margin-bottom: 5%;
+  }
 
-        .product_detail_infobox{ float:none; width:100%; margin-top: 0;    margin-left: 0px;}
+  .product_specifics_texts {
+    margin-left: 10%;
+    max-width: 80%;
+  }
 
-        .mySlides img{
-          transition: none;
-          width:100%;
-        }
+}
 
-        .mySlides img:hover{
-          transform: none;
-        }
-      }
+@media only screen and (max-width:650px){
+  #products>div.single{
+    width: 100%;
+  }
+
+  div.single>div.product_img img{
+    width: 70%;
+  }
+
+  .row {
+    float: left;
+    width: 100%;
+    overflow:hidden;float:none;
+  }
+
+  .container_d {
+    width:100%;
+    margin-left:0%;
+    margin-right:0%;
+    float:none;
+  }
+
+  .product_detail_infobox{
+    float:none;
+    width:100%;
+    margin-top: 0;
+    margin-left: 0px;
+  }
+
+  .mySlides img{
+    transition: none;
+    width:100%;
+  }
+
+  .mySlides img:hover{
+    transform: none;
+  }
+}
 
 
 /* media only for the product list section */
-      @media only screen and (max-width:790px){
+@media only screen and (max-width:790px){
 
-        .single:nth-of-type(n) .product_img{
-          padding-top:2rem;
-          text-align: center;
-        }
+  .single:nth-of-type(n) .product_img{
+    padding-top:2rem;
+    text-align: center;
+  }
 
-        .product-cake-h2 h2{
-          font-size: 25px;
-        }
+  .product-cake-h2 h2{
+    font-size: 25px;
+  }
 
-        .product-title h3{
-          font-size: 17px;
-        }
+  .product-title h3{
+    font-size: 17px;
+  }
 
-        .add-btn a{
-          padding: 8px 16px;
-          font-size: 12px;
-        }
-      }
+  .add-btn a{
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
 
-      @media only screen and (max-width:650px){
-        .single:nth-of-type(n){
-          width: 80%;
-        }
+@media only screen and (max-width:650px){
+  .single:nth-of-type(n){
+    width: 80%;
+  }
 
-        .single:nth-of-type(2){
-          margin-top: 3rem;
-        }
+  .single:nth-of-type(2){
+    margin-top: 3rem;
+  }
 
-        .single:nth-of-type(3){
-          margin-top: 3rem;
-        }
+  .single:nth-of-type(3){
+    margin-top: 3rem;
+  }
 
-        .product-cake-h2 h2{
-          font-size: 25px;
-        }
+  .product-cake-h2 h2{
+    font-size: 25px;
+  }
 
-        .product-title h3{
-          font-size: 17px;
-        }
+  .product-title h3{
+    font-size: 17px;
+  }
 
-        .add-btn a{
-          padding: 12px 20px;
-          font-size: 14px;
-        }
-      }
+  .add-btn a{
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
 
-      @media only screen and (max-width:500px){
-        .single:nth-of-type(n) .product_img{
-          padding-top:1em;
-          text-align: center;
-        }
+@media only screen and (max-width:500px){
+  .single:nth-of-type(n) .product_img{
+    padding-top:1em;
+    text-align: center;
+  }
 
-        .product-cake-h2 h2{
-          font-size: 22px;
-        }
-      }
+  .product-cake-h2 h2{
+    font-size: 22px;
+  }
+}
